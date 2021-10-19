@@ -13,11 +13,11 @@ const Home = ({ darkMode }) => {
                 <Row>
                     <Col lg={12} xs={12}>
                         <h1 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h1>
-                        <h2 className="lead" align="center">I
+                        <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
                                 data-period="2000"
-                                data-rotate='[ " am a Full-Stack Developer.", " can work with NLP.", " love designing.", " am working on Problem Solving.", " am a learner for life!" ]'>
+                                data-rotate='[ " MetriX Mathematical Olympiad", " is an IMO-type contest", " held online", "Best of Luck" ]'>
                             </span>
                         </h2>
                     </Col>
@@ -25,7 +25,7 @@ const Home = ({ darkMode }) => {
                 <Row>
                     <Container align="center">
                         <Col lg={12} xs={12}>
-                            <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" />
+                            <img src="https://imgur.com/0ZWK6JY" />
                         </Col>
                     </Container>
                 </Row>
