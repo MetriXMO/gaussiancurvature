@@ -2,8 +2,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { AttentionSeeker } from 'react-awesome-reveal';
-import helloLight from '../media/hello-light.png';
-import helloDark from '../media/hello-dark.png';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home, About, Skills, Experience, Contact, Footer } from './components'
 import { useState } from "react";
@@ -24,7 +22,7 @@ function App() {
       <div className="App" data-theme={darkMode ? "dark" : "light"}>
         <Route path="/">
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="100" /></Navbar.Brand>
+            <Navbar.Brand href="#home" className="navname">MMO</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
