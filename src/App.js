@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import { AttentionSeeker } from 'react-awesome-reveal';
 import helloLight from '../media/hello-light.png';
 import helloDark from '../media/hello-dark.png';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
