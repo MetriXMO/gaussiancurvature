@@ -22,7 +22,7 @@ function App() {
       <div className="App" data-theme={darkMode ? "dark" : "light"}>
         <Route path="/">
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname"><img src="/static/media/hello-light.5201f2ba.png" width="120"></img></Navbar.Brand>
+            <Navbar.Brand href="#home" className="navname">MMO</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
