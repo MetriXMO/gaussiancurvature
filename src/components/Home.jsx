@@ -12,7 +12,7 @@ const Home = ({ darkMode }) => {
             <AttentionSeeker shakeX>
                 <Row>
                     <Col lg={12} xs={12}>
-                        <h1 className="display-3 hello" align="center">HELLO!<code> I'm Tejaswi</code></h1>
+                        <h1 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h1>
                         <h2 className="lead" align="center">I
                             <span
                                 class="txt-rotate"
