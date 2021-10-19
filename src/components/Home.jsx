@@ -23,17 +23,17 @@ const Home = ({ darkMode }) => {
                     </Col>
                 </Row>
                 <Row>
-26
+
                     <Container align="center">
-27
+
                         <Col lg={12} xs={12}>
-28
+
                             <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" />
-29
+
                         </Col>
-30
+
                     </Container>
-31
+
                 </Row>
             </AttentionSeeker>
 
