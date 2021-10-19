@@ -36,11 +36,7 @@ const Home = ({ darkMode }) => {
 31
                 </Row>
             </AttentionSeeker>
-<center>
-                  <img src="https://imgur.com/JXKU6hu.png"   width="450"
-                    height="450">
-                            </img>
-                </center>
+
             <br></br>
             <hr></hr>
         </div>
