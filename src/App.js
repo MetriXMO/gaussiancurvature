@@ -21,13 +21,13 @@ function App() {
       <div className="App" data-theme={darkMode ? "dark" : "light"}>
         <Route path="/">
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname">Welcome!</Navbar.Brand>
+            <Navbar.Brand href="#home" className="navname">MMO</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link">About me</Nav.Link>
-                    <Nav.Link href="#skills" className="link">Skills</Nav.Link>
-                    <Nav.Link href="#experience" className="link">Experience</Nav.Link>
+                    <Nav.Link href="#about" className="link">About</Nav.Link>
+                    <Nav.Link href="#skills" className="link">Team</Nav.Link>
+                    <Nav.Link href="#experience" className="link">MMO 2020</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
