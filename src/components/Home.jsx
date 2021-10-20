@@ -11,8 +11,8 @@ const Home = ({ darkMode }) => {
         <div>
             <AttentionSeeker shakeX>
                 <Row>
-                    <Col lg={12} xs={12}>
-                        <h2 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h2>
+                   
+                        <h2  align="center">MetriX Mathematical Olympiad</h2>
                         <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
@@ -20,7 +20,7 @@ const Home = ({ darkMode }) => {
                                 data-rotate='[ " MetriX Mathematical Olympiad", " is an IMO-type contest", " held online", "Best of Luck" ]'>
                             </span>
                         </h2>
-                    </Col>
+                 
                 </Row>
                 <Row>
 
