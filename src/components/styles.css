@@ -2,8 +2,8 @@
     --bg-color: #74a1e9;
     --text-color: #2aafe8;
     --page-color: #80f2db;
-    --hello: #8e8d8a;
-    --description: #e85a4f;
+    --hello: #2aafe8;
+    --description: #2aafe8;
     --name:#74a1e9;
     --border-width: 1px;
 }
@@ -12,8 +12,8 @@
     --bg-color: #2aafe8;
     --text-color: #2aafe8;
     --page-color: #0B0645;
-    --description: #eae7dc;
-    --hello: #ffffff;
+    --description: #2aafe8;
+    --hello: #2aafe8;
     --name: #20e8e5;
     --border-width: 2px;
 }
@@ -88,7 +88,7 @@ code{
     margin-top: 80px;
 }
 .nbcard{
-    background-color: transparent;
+    background-color: #74a1e9;
     color: var(--text-color);
     padding: 10px;
     border: none;
@@ -150,7 +150,7 @@ strong, .with{
 }
 
 .flip-card {
-    background-color: transparent;
+    background-color: #74a1e9;
     width: 300px;
     height: 300px;
     perspective: 1000px;
@@ -161,7 +161,7 @@ strong, .with{
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(1,0,1,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
