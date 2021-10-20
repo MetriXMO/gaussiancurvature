@@ -39,7 +39,7 @@
     color: #000000;
 }
 .navbar .navname:hover{
-    color: var(--name);
+    color: #8474e9;
 }
 
 .navbar .mr-auto .link{
