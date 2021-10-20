@@ -34,10 +34,12 @@ const Home = ({ darkMode }) => {
 
                     </Container>
 
-                </Row>
-<p>MetriX Mathematical Olympiad or  MMO, as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is supposed to be held online mode every year and absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
+ 
+               </Row>
+<div class="skill-nbcard card"><div class="card-body"><div class="card-title h5">About</div><p class="card-text">MetriX Mathematical Olympiad or  MMO, as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is supposed to be held online mode every year and absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
 
-To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is an single stage competition.This contest can be participated by participants from any country. However this contest is given by respective individuals.</p>
+To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is an single stage competition.This contest can be participated by participants from any country. However this contest is given by respective individuals.</p></div></div>
+
 
             </AttentionSeeker>
 
