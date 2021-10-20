@@ -37,7 +37,7 @@ const Home = ({ darkMode }) => {
 
  
                </Row>
-    <Col lg={12} xs={12}>
+    <Col lg={8} xs={8}>
 <div align="center">
   <Card className="skill-nbcard">
                                 <Card.Body>
