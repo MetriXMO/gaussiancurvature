@@ -88,12 +88,12 @@ const About = ({ darkMode }) => {
             </Col>
             </Row>        </Container><Row>
 
-                                   <Col lg={10}>
+                                   <Col lg={12} align="center">
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>Team 2021</Card.Title>
-                                    <Card.Text><ul>
-                                               <li>Mindstormer</li> &nbsp;&nbsp;&nbsp;<li>MNJ2357</li> <li>TLP.39</li> &nbsp;&nbsp;&nbsp;<li>Aritra12</li>&nbsp;&nbsp;&nbsp;<li>k12byda5h</li>&nbsp;&nbsp;&nbsp; <li>CANBANKAN</li>&nbsp;&nbsp;&nbsp; <li>Orestis Lignos</li>
+                                    <Card.Text><ul align="left">
+                                              <li>Mindstormer</li> <li>MNJ2357</li> <li>TLP.39</li> <li>Aritra12</li><li>k12byda5h</li><li>CANBANKAN</li><li>Orestis Lignos</li>
 
  <li>EpicNumberTheory</li>
 
