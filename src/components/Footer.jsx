@@ -5,10 +5,10 @@ const Footer = () => {
         <div>
             <br></br>
             <hr></hr>
-            <p className="footer-text">Made with ♥️ by Tejaswi<br></br>
+            <p className="footer-text">MMO<br></br>
                 <br></br>
-                <small>All rights reserved © 2021 Tejaswi Chaudhari</small><br></br>
-                <small>Illustrations by undraw.co</small>
+                <small>All rights reserved © 2021 MMO</small><br></br>
+               
             </p>
         </div>
     )
