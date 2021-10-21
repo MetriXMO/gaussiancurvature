@@ -1,14 +1,7 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import './styles.css';
-import connectLight from '../media/connect-light.png';
-import connectDark from '../media/connect-dark.png';
-import resume from '../media/TejaswiChaudhari_Resume.pdf'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
