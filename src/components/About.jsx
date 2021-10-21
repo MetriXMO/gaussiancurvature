@@ -125,7 +125,7 @@ const About = ({ darkMode }) => {
 
                                           </ul></Card.Text>
                                 </Card.Body></Card>
-  
+  </Col>
 </Row>
           <br></br>
           <hr></hr>
