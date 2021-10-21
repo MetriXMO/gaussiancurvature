@@ -88,8 +88,6 @@ const About = ({ darkMode }) => {
                     <p>I am a <strong>Sophomore</strong> at Usha Mittal Institute of Technology, Department of <strong>Computer Science and Technology</strong>. I believe that learning is a stream and it ought not to stop. I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. Many things excite me in this expanse of technology, and I like to explore and keep my options open all the time. I am up for challenges that take me by surprise. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books and verses, and I have a good eye for art.<br></br>
                       Now that you know me a bit, please feel free to drop a text so that we can start a<strong> conversation.</strong></p>
                   </Card.Text>
-                
-                  </a>
                 </Card.Body>
               </Card>
             </Col>
