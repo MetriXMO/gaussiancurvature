@@ -88,8 +88,8 @@ code{
     margin-top: 80px;
 }
 .nbcard{
-    background-color: var(--description);
-    color: var(--text-color);
+    background-color:  --bg-color;
+    color: #ffffff;
     padding: 10px;
     border: none;
 }
