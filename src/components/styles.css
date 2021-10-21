@@ -9,7 +9,7 @@
 }
 
 [data-theme="dark"] {
-    --bg-color: #2aafe8;
+    --bg-color: #0B0645;
     --text-color: #2aafe8;
     --page-color: #0B0645;
     --description: #2aafe8;
@@ -89,7 +89,7 @@ code{
 }
 .nbcard{
     background-color: var(--bg-color);
-    color: var(--name);
+    color: var(--hello);
     padding: 10px;
     border: none;
 }
