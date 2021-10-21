@@ -126,7 +126,7 @@ const About = ({ darkMode }) => {
  <li>MathLuis</li>
 <li>Squareman</li>
  <li>GGHX</li>
- <li>lneis1</li>
+ <li>Jupiter_is_Big</li>
  <li>oVlad</li>
 <li>phoenixfire</li>
 <li>lneis1</li>
