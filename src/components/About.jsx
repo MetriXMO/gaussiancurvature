@@ -72,23 +72,23 @@ const About = ({ darkMode }) => {
       <Fade>
         <Container align='center'>
           <Row>
-            <Col lg={7} align='center'>
+            <Col lg={6} align='center'>
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>MMO 2021</Card.Title>
                                     <Card.Text>Yes! MMO is back in this year again and is expected to be held on soon in December.The rules and regulations of the contest is identical to its previous year rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck and stay safe.</Card.Text>
                                 </Card.Body></Card>
             </Col>
-   <Col lg={7}>
+   <Col lg={6}>
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>MMO 2020</Card.Title>
                                     <Card.Text>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
                                 </Card.Body></Card>
             </Col>
-            </Row>       <Row>
+            </Row> &nbsp;&nbsp;      <Row> &nbsp;&nbsp;   &nbsp;&nbsp;  
 
-                                   <Col lg={14} align="center">
+                                   <Col lg={12} align="center">
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>Team 2021</Card.Title>
