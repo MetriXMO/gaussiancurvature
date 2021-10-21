@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <br></br>
             <hr></hr>
-            <p className="footer-text">MMO<br></br>
+            <p className="footer-text"><b>MMO</b><br></br>
                 <br></br>
                 <small>All rights reserved © 2021 MMO</small><br></br>
                
