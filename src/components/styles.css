@@ -89,7 +89,7 @@ code{
 }
 .nbcard{
     background-color: var(--bg-color);
-    color: var(--Hello);
+    color: var(--hello);
     padding: 10px;
     border: none;
 }
@@ -151,7 +151,7 @@ strong, .with{
 
 .flip-card {
     background-color: var(--page-color);
-    color: var(--Hello);
+    color: var(--hello);
     padding: 15px;);
     width: 300px;
     height: 300px;
