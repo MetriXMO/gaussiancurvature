@@ -88,7 +88,7 @@ const About = ({ darkMode }) => {
             </Col>
             </Row>
 <Row>
-                                   <Col lg={12} align='center'>
+                                   <Col lg={12}>
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>Team 2021</Card.Title>
