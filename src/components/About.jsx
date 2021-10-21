@@ -79,48 +79,21 @@ const About = ({ darkMode }) => {
       <Fade>
         <Container align='center'>
           <Row>
-            <Col lg={8} align='center'>
+            <Col lg={12} align='center'>
               <Card className="nbcard">
                 <Card.Body>
-                  <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
+                  <Card.Title><h2 className="lead">MMO 2021 Upcoming!</h2></Card.Title>
                   <br></br>
                   <Card.Text>
                     <p>I am a <strong>Sophomore</strong> at Usha Mittal Institute of Technology, Department of <strong>Computer Science and Technology</strong>. I believe that learning is a stream and it ought not to stop. I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. Many things excite me in this expanse of technology, and I like to explore and keep my options open all the time. I am up for challenges that take me by surprise. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books and verses, and I have a good eye for art.<br></br>
                       Now that you know me a bit, please feel free to drop a text so that we can start a<strong> conversation.</strong></p>
                   </Card.Text>
-                  <a href={resume} target="_blank" rel="noreferrer noopener">
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faFile} /> View Resume
-                    </Button>
-                  </a>
-                  <a href={resume} download>
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faFile} /> Download Resume
-                    </Button>
+                
                   </a>
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} align='center'>
-              <Card className="nbcard">
-                <Card.Body>
-                  <Card.Title><h2 className="lead">Let's Connect!</h2></Card.Title>
-                  <br></br>
-                  <a href="https://www.linkedin.com/in/tejaswi-chaudhari/" target="_blank" rel="noreferrer noopener">
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faLinkedin} /> Tejaswi Chaudhari
-                    </Button>
-                  </a>
-                  <a href="https://github.com/Tejaswi-Chaudhari" target="_blank" rel="noreferrer noopener">
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"}>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faGithub} /> Tejaswi-Chaudhari
-                    </Button>
-                  </a>
-                  <img src={darkMode ? connectDark : connectLight} alt="connect" className="connect-img img-fluid animated" />
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+            </Row>
           <br></br>
           <hr></hr>
           <br></br>
