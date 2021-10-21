@@ -17,51 +17,25 @@ const Skills = ({ darkMode }) => {
             <Slide>
                 <Container>
                     <Row>
-                        <Col lg={4} xs={8}>
-                            <h1 className="display-3 skill-h">I can work <p className="with">with</p> </h1>
-                            <img src={darkMode ? skillsDark : skillsLight} alt="skills" className="skills-img img-fluid animated" />
-                        </Col>
-                        <Col lg={2} xs={4}>
-                            <br></br>
-                            <Card className="nbcard">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
-                                    <FontAwesomeIcon className="skill" size='2x' icon={faHtml5} />
-                                </Button>
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
-                                    <FontAwesomeIcon className="skill" size='2x' icon={faCss3Alt} />
-                                </Button>
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
-                                    <FontAwesomeIcon className="skill" size='2x' icon={faJs} />
-                                </Button>
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
-                                    <FontAwesomeIcon className="skill" size='2x' icon={faReact} />
-                                </Button>
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
-                                    <FontAwesomeIcon className="skill" size='2x' icon={faDocker} />
-                                </Button>
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="skills-btn">
-                                    <p align="center" className="skill-txt">C</p>
-                                </Button>
-                            </Card>
-                        </Col>
+                     
                         <Col lg={6} xs={12}>
                             <br></br>
                             <Card className="skill-nbcard">
                                 <Card.Body>
-                                    <Card.Title>Programming Languages</Card.Title>
-                                    <Card.Text>C Programming, C++, GNU Octave, Python, JavaScript</Card.Text>
+                                    <Card.Title>Past Year Papers</Card.Title>
+                                    <Card.Text>In progress</Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="skill-nbcard">
                                 <Card.Body >
-                                    <Card.Title>Technologies</Card.Title>
-                                    <Card.Text>HTML, CSS, Bootstrap, Natural Language Processing, ReactJs, Docker, Cloud Firestore, Django, Django Rest Framework, SQLite</Card.Text>
+                                    <Card.Title>MMO 2021 Samples</Card.Title>
+                                    <Card.Text>In progress</Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="skill-nbcard">
                                 <Card.Body >
-                                    <Card.Title>Others</Card.Title>
-                                    <Card.Text>MS office, Graphic Designing</Card.Text>
+                                    <Card.Title>MMO 2020 Samples</Card.Title>
+                                    <Card.Text>In progress</Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
