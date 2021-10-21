@@ -22,8 +22,8 @@ const Home = ({ darkMode }) => {
                 </Row>
                 <Row>
 
-<div align="center" className="lead" >  <Col lg={14} xs={14}>
- <Card className="nbcard">
+<div align="center"  >  <Col lg={14}>
+ <Card className="nbcard" style="color:#e98074">
                 <Card.Body>
                  <br></br>
                   <Card.Text>
