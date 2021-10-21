@@ -88,43 +88,51 @@ const About = ({ darkMode }) => {
             </Col>
             </Row> &nbsp;&nbsp;      <Row> &nbsp;&nbsp;    
 
-                                   <Col lg={12} align="center">
+                                   <Col lg={6} align="center">
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>Team 2021</Card.Title>
                                     <Card.Text><ul align="left">
-                                              <li>Mindstormer</li> <li>MNJ2357</li> <li>TLP.39</li> <li>Aritra12</li><li>k12byda5h</li><li>CANBANKAN</li><li>Orestis Lignos</li>
-<table>
-    
-    <tr>
-    
-        <td> <li>EpicNumberTheory</li></td>
-        <td> <li>Squareman</li></td>
-    </tr>
-    <tr>
+                                            <li>MNJ2357</li>  <li>Mindstormer</li>  <li>TLP.39</li> <li>Aritra12</li><li>k12byda5h</li><li>CANBANKAN</li>
+
        
-        <td>
- <li>Jupiter_is_Big</li></td>
-        <td>MathLuis</td>
-    </tr>
-    <tr>
-        
-        <td>9</td>
-        <td>6,219</td>
-    </tr>
-</table>
 
  <li>EpicNumberTheory</li>
 
- <li>Squareman</li>
+ <li>Orestis Lignos</li><li>Jelena</li>
 
- <li>Jupiter_is_Big</li>
 
+
+
+ 
+
+
+
+
+
+
+                                          </ul></Card.Text>
+                                </Card.Body></Card>
+  </Col>
+                                   <Col lg={6} align="center">
+               <Card className="skill-nbcard">
+                                <Card.Body>
+                                    <Card.Title>Team 2021</Card.Title>
+                                    <Card.Text><ul align="left">
+                                              
+
+ 
+<li>Starchan</li>
  <li>MathLuis</li>
-
- <li>Starchan</li>
-
+<li>Squareman</li>
+ <li>GGHX</li>
  <li>lneis1</li>
+ <li>oVlad</li>
+<li>phoenixfire</li>
+<li>lneis1</li>
+ <li>Awesome_Guy</li>
+
+
 
 
 
