@@ -152,7 +152,7 @@ strong, .with{
 .flip-card {
     background-color: var(--page-color);
     color: var(--hello);
-    padding: 15px;);
+    padding: 15px;
     width: 300px;
     height: 300px;
     perspective: 1000px;
