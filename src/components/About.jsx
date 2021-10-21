@@ -86,7 +86,7 @@ const About = ({ darkMode }) => {
                                     <Card.Text>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
                                 </Card.Body></Card>
             </Col>
-            </Row> &nbsp;&nbsp;      <Row> &nbsp;&nbsp;   &nbsp;&nbsp;  
+            </Row> &nbsp;&nbsp;      <Row> &nbsp;&nbsp;    
 
                                    <Col lg={12} align="center">
                <Card className="skill-nbcard">
@@ -94,6 +94,25 @@ const About = ({ darkMode }) => {
                                     <Card.Title>Team 2021</Card.Title>
                                     <Card.Text><ul align="left">
                                               <li>Mindstormer</li> <li>MNJ2357</li> <li>TLP.39</li> <li>Aritra12</li><li>k12byda5h</li><li>CANBANKAN</li><li>Orestis Lignos</li>
+<table>
+    
+    <tr>
+    
+        <td> <li>EpicNumberTheory</li></td>
+        <td> <li>Squareman</li></td>
+    </tr>
+    <tr>
+       
+        <td>
+ <li>Jupiter_is_Big</li></td>
+        <td>MathLuis</td>
+    </tr>
+    <tr>
+        
+        <td>9</td>
+        <td>6,219</td>
+    </tr>
+</table>
 
  <li>EpicNumberTheory</li>
 
