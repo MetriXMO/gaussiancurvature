@@ -86,7 +86,7 @@ const About = ({ darkMode }) => {
                                     <Card.Text>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
                                 </Card.Body></Card>
             </Col>
-            </Row>
+            </Row>        </Container><Row>
 
                                    <Col lg={12}>
                <Card className="skill-nbcard">
@@ -125,12 +125,12 @@ const About = ({ darkMode }) => {
 
                                           </ul></Card.Text>
                                 </Card.Body></Card>
-  </Col>
+  </Col></Row>
 
           <br></br>
           <hr></hr>
           <br></br>
-        </Container>
+
       </Fade>
     </div>
   )
