@@ -1,6 +1,6 @@
 import { React } from 'react'
 import { Zoom, Fade } from 'react-awesome-reveal'
-import tcd from '../media/TCD.png'
+import tcd from '../src/hello-light.png'
 import Container from 'react-bootstrap/esm/Container'
 import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
