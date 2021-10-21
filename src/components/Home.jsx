@@ -25,19 +25,7 @@ const Home = ({ darkMode }) => {
                 </Row>
                 <Row>
 
-                    <Container align="center">
-
-                        <Col lg={12} xs={12}>
-
-                            <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" />
-
-                        </Col>
-
-                    </Container>
-
- 
-               </Row>
-  <div align="center">  <Col lg={10} xs={10}>
+<div align="center">  <Col lg={10} xs={10}>
 
   <Card className="skill-nbcard">
                                 <Card.Body>
@@ -46,6 +34,9 @@ const Home = ({ darkMode }) => {
 To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is an single stage competition.This contest can be participated by participants from any country. However this contest is given by respective individuals.</Card.Text>
                                 </Card.Body></Card>
 </Col>
+ 
+               </Row>
+  
 </div>
             </AttentionSeeker>
 
