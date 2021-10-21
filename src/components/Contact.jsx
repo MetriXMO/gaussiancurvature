@@ -48,8 +48,8 @@ const Contact = ({ darkMode }) => {
                     <Row>
                         <Col lg={4}>
                             <br></br>
-                            <h2 className="lead">Contact me!</h2>
-                            <p className="contact-text">Drop a suggestion, feedback, opportunities or we can colaborate on a project. Please mention your contact details if you are expecting a reply.</p>
+                            <h2 className="lead">Contact Us!</h2>
+                            <p className="contact-text">Drop a suggestion, feedback, opportunities or if any doubts. Our gmail is <strong>gaussiancurv180@gmail.com</strong></p>
                             <br></br>
                             <img src={darkMode ? contactDark : contactLight} alt="contact" className="contact-img img-fluid" />
                             <br></br>
