@@ -87,6 +87,46 @@ const About = ({ darkMode }) => {
                                 </Card.Body></Card>
             </Col>
             </Row>
+<Row>
+                                   <Col lg={12} align='center'>
+               <Card className="skill-nbcard">
+                                <Card.Body>
+                                    <Card.Title>Team 2021</Card.Title>
+                                    <Card.Text><ul>
+                                               <li>Mindstormer</li>
+ <li>MNJ2357</li>
+
+ <li>TLP.39</li>
+
+ <li>Aritra12</li>
+
+ <li>k12byda5h</li>
+
+ <li>CANBANKAN</li>
+
+ <li>Orestis Lignos</li>
+
+ <li>EpicNumberTheory</li>
+
+ <li>Squareman</li>
+
+ <li>Jupiter_is_Big</li>
+
+ <li>MathLuis</li>
+
+ <li>Starchan</li>
+
+ <li>lneis1</li>
+
+
+
+
+
+
+                                          </ul></Card.Text>
+                                </Card.Body></Card>
+  
+</Row>
           <br></br>
           <hr></hr>
           <br></br>
