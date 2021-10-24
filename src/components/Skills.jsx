@@ -1,5 +1,7 @@
 import React from 'react'
 import { Slide } from "react-awesome-reveal";
+import helloLight from '../src/hello-light.png';
+import helloDark from '../src/hello-dark.png';
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
