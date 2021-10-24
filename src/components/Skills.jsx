@@ -1,7 +1,9 @@
 import React from 'react'
 import { Slide } from "react-awesome-reveal";
-import helloLight from '../components/euclid_5.jpeg';
-import helloDark from '../components/euclid_5.jpeg';
+import helloLight from '../components/
+depositphotos_7404628-stock-photo-digital-universe.jpg';
+import helloDark from '../components/
+depositphotos_7404628-stock-photo-digital-universe.jpg';
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
