@@ -2,6 +2,8 @@ import React from 'react'
 import { Slide } from "react-awesome-reveal";
 import helloLight from '../components/unknown4.png';
 import helloDark from '../components/unknown4.png';
+import helloLight1 from '../components/cool.png';
+import helloDark1 from '../components/cool.png';
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
@@ -21,12 +23,14 @@ const Skills = ({ darkMode }) => {
                             <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500" /></Card.Title>
-                                    <Card.Text>In progress</Card.Text>
+                                    <Card.Text><h3><b>MMO 2020 Day 1</b></h3>
+                                                        <hr>
+Metrix MO you know what I don't know what you know </Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="skill-nbcard">
                                 <Card.Body >
-                                    <Card.Title>MMO 2021 Samples</Card.Title>
+                                    <Card.Title><Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500" /></Card.Title></Card.Title>
                                     <Card.Text>In progress</Card.Text>
                                 </Card.Body>
                             </Card>
