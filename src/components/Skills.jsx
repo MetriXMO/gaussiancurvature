@@ -32,7 +32,7 @@ MetriX Mathematical Olympiad held on 2020 Day 1 paper</Card.Text>
                             <Card className="skill-nbcard">
                                 <Card.Body >
                                    <Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500"  /></Card.Title>
-                                   <Card.Text className="display-3 hello"><h4><b><a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" className="display-3 hello" >MMO 2020 Day 2</a></b></h4>
+                                   <Card.Text><h4><b><a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" ><a style="color:#ffffff">MMO 2020 Day 2</a></a></b></h4>
                                                      <hr/>
 MetriX Mathematical Olympiad held on 2020 Day 2 paper</Card.Text>
                                 </Card.Body>
