@@ -28,7 +28,7 @@ const Skills = ({ darkMode }) => {
 MetriX Mathematical Olympiad held on 2020 Day 1 paper</Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="skill-nbcard">
+                            <Card className="skill-nbcard" href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf">
                                 <Card.Body >
                                     <Card.Title><Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500" /></Card.Title></Card.Title>
                                    <Card.Text><h4><b>MMO 2020 Day 2</b></h4>
