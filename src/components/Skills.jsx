@@ -1,7 +1,7 @@
 import React from 'react'
 import { Slide } from "react-awesome-reveal";
-import helloLight from '../components/unknown4.png';
-import helloDark from '../components/unknown4.png';
+import helloLight from '../components/cooool.png';
+import helloDark from '../components/cooool.png';
 import helloLight1 from '../components/cool.png';
 import helloDark1 from '../components/cool.png';
 import Container from 'react-bootstrap/esm/Container'
