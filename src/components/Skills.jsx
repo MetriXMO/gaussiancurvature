@@ -23,15 +23,17 @@ const Skills = ({ darkMode }) => {
                             <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500" /></Card.Title>
-                                    <Card.Text><h3><b>MMO 2020 Day 1</b></h3>
+                                    <Card.Text><h4><b>MMO 2020 Day 1</b></h4>
                                                      <hr/>
-Metrix MO you know what I don't know what you know </Card.Text>
+MetriX Mathematical Olympiad held on 2020 Day 1 paper</Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="skill-nbcard">
                                 <Card.Body >
                                     <Card.Title><Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500" /></Card.Title></Card.Title>
-                                    <Card.Text>In progress</Card.Text>
+                                   <Card.Text><h4><b>MMO 2020 Day 2</b></h4>
+                                                     <hr/>
+MetriX Mathematical Olympiad held on 2020 Day 2 paper</Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="skill-nbcard">
