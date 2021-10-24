@@ -20,7 +20,7 @@ const Skills = ({ darkMode }) => {
                             <br></br>
                             <Card className="skill-nbcard">
                                 <Card.Body>
-                                    <Card.Title><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="130" /></Card.Title>
+                                    <Card.Title><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" /></Card.Title>
                                     <Card.Text>In progress</Card.Text>
                                 </Card.Body>
                             </Card>
