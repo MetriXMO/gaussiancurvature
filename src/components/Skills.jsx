@@ -43,7 +43,7 @@ const Skills = ({ darkMode }) => {
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
 
-                             </Card><Col>  
+                             </Card></Col>  
                     </Row>
                     <br></br>
                     <hr></hr>
