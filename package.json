@@ -38,7 +38,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://tejaswichaudhari.me/",
+  "homepage": "https://metrixmath-oly.vercel.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
