@@ -53,7 +53,7 @@ const Experience = ({ darkMode }) => {
                                         </a>&nbsp;
 
                                         <a href="https://metrixmath-olympiad.vercel.app/" target="_blank" rel="noreferrer noopener">
-                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">Read</Button>
+                                            <Button variant="dark" className="sbtn">Read</Button>
                                         </a>
                                     </div>
                                     <br></br>
