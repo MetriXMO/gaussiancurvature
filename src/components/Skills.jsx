@@ -14,7 +14,8 @@ import Card from 'react-bootstrap/esm/Card';
 const Skills = ({ darkMode }) => {
     return (
         <div data-theme={darkMode ? "dark" : "light"}>
-            <br></br>
+            <br>
+           <h2 className="lead" align="center"><b>- Papers-</b></h2></br>
             <Slide>
                 <Container>
                     <Row>
