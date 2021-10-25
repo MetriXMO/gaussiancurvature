@@ -50,7 +50,7 @@ MetriX Mathematical Olympiad held on 2020 Day 2 paper
 <Col lg={6}>
                             <Card className="skill-nbcard">
                                 <Card.Body >
-                                    <Card.Title>MMO 2020 Samples</Card.Title>
+                                    <Card.Title><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500"/></Card.Title>
                                     <Card.Text>Will be uploaded
                                       <br></br>
 <hr/>                        <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
