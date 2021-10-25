@@ -40,7 +40,11 @@ MetriX Mathematical Olympiad held on 2020 Day 2 paper</Card.Text>
                             <Card className="skill-nbcard">
                                 <Card.Body >
                                     <Card.Title>MMO 2020 Samples</Card.Title>
-                                    <Card.Text>In progress</Card.Text>
+                                    <Card.Text>In progress
+<hr/>
+                                      <Button size="large" variant="contained" color="primary" href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf">
+                                    View
+                                </Button></Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
