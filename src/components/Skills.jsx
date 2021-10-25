@@ -5,6 +5,7 @@ import helloDark from '../components/cooool.png';
 import helloLight1 from '../components/cool.png';
 import helloDark1 from '../components/cool.png';
 import Container from 'react-bootstrap/esm/Container'
+import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
@@ -46,9 +47,9 @@ MetriX Mathematical Olympiad held on 2020 Day 2 paper
                                     <Card.Title>MMO 2020 Samples</Card.Title>
                                     <Card.Text>In progress
 <hr/>        
-                                      <button type="button" onclick="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf">
+                                      <Button  onclick="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf">
                                     View
-                                </button></Card.Text>
+                                </Button></Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
