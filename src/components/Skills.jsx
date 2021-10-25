@@ -14,29 +14,29 @@ const Skills = ({ darkMode }) => {
         <div data-theme={darkMode ? "dark" : "light"}>
             <br></br>
             <Slide>
-                <Container>
+                <Container align="center">
                     <Row>
                      
-                        <Col lg={6}>
+                        <Col lg={5}>
                             <br></br>
                             <Card className="skill-nbcard">
                                 <Card.Body>
-                                    <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500" /></Card.Title>
-                                    <Card.Text><h4><b>MMO 2020 Day 1</b></h4>
+                                    <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="450" /></Card.Title>
+                                    <Card.Text align="left"><h4>MMO 2020 Day 1</h4>
                                                       <hr/>MetriX Mathematical Olympiad held on 2020 Day 1 paper
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"><br/>
-                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View</Button>
+                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" align="left">View</Button>
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
                             </Card></Col>
- <Col lg={6}>
+ <Col lg={5}>
                             <Card className="skill-nbcard">
                                 <Card.Body >
-                                   <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500"/></Card.Title>
-                                   <Card.Text><h4><b>MMO 2020 Day 2</b></h4>
+                                   <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="450"/></Card.Title>
+                                   <Card.Text align="left"><h4>MMO 2020 Day 2</b></h4>
                                                 <hr/>MetriX Mathematical Olympiad held on 2020 Day 2 paper  <br/>
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%202.pdf" target="_blank" rel="noreferrer noopener">
-                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View</Button>
+                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn" align="left">View</Button>
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
                              </Card> </Col>
