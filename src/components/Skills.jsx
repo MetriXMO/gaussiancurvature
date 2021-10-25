@@ -18,7 +18,7 @@ const Skills = ({ darkMode }) => {
             <Slide>
                 <Container>
              <br></br>
-                    <h2 className="lead" align="center"><b>- Papers-</b></h2>
+                    <h4 className="lead" align="center"><b>Past Year Papers and Sample Questions</b></h4>
                     <br></br>
                     <Row>
                       <Col lg={6}>
