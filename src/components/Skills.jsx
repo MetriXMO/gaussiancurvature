@@ -15,7 +15,7 @@ const Skills = ({ darkMode }) => {
     return (
         <div data-theme={darkMode ? "dark" : "light"}>
             <br>
-           <h2 className="lead" align="center"><b>- Papers-</b></h2></br>
+           <h2 className="lead" align="center"><b>Past Year Papers and Samples</b></h2></br>
             <Slide>
                 <Container>
                     <Row>
