@@ -50,7 +50,7 @@
     color: #000000;
 }
 .navbar .mr-auto .link:visited{
-    color: #000000;
+    color: #ffffff;
 }
 .navbar .mr-auto .link:hover{
     color: var(--name);
