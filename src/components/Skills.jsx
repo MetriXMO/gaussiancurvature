@@ -14,12 +14,10 @@ const Skills = ({ darkMode }) => {
         <div data-theme={darkMode ? "dark" : "light"}>
             <br></br>
             <Slide>
-                <Container align="center">
+                <Container>
                     <Row>
-                     
-                        <Col lg={5}>
-                            <br></br>
-                            <Card className="skill-nbcard">
+                      <Col lg={6}>
+                     <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="450" /></Card.Title>
                                     <Card.Text align="left"><h4> MMO 2020 Day 1</h4>
@@ -29,7 +27,7 @@ const Skills = ({ darkMode }) => {
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
                             </Card></Col>
- <Col lg={5}>
+ <Col lg={6}>
                             <Card className="skill-nbcard">
                                 <Card.Body >
                                    <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="450"/></Card.Title>
