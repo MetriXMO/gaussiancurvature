@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react'
+import '@progress/kendo-theme-default/dist/all.css';  
 import helloLight from '../src/hello-light.png';
 import helloDark from '../src/hello-dark.png';
 import { DropDownList } from "@progress/kendo-react-dropdowns"; 
