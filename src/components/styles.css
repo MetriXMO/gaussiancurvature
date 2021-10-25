@@ -7,6 +7,7 @@
     --name:#e98074;
     --border-width: 1px;
     --aritra:#e98074;
+    --oreo:#8e8d8a;
 }
 
 [data-theme="dark"] {
@@ -18,6 +19,7 @@
     --name: #2aafe8;
     --border-width: 2px;
     --aritra:#5788eb;
+     --oreo:#5788eb;
 }
 
 .App{
@@ -50,7 +52,7 @@
     color: #000000;
 }
 .navbar .mr-auto .link:visited{
-    color: #ffffff;
+    color: var(--hello);
 }
 .navbar .mr-auto .link:hover{
     color: var(--name);
