@@ -28,7 +28,7 @@ const Skills = ({ darkMode }) => {
                                                      <hr/>
 MetriX Mathematical Olympiad held on 2020 Day 1 paper
 <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
-                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">Download</Button>
+                                            <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View</Button>
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
                             </Card></Col>
@@ -50,7 +50,7 @@ MetriX Mathematical Olympiad held on 2020 Day 2 paper
                                     <Card.Title>MMO 2020 Samples</Card.Title>
                                     <Card.Text>Will be uploaded
 <hr/>                        <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
-                                      <Button variant={darkMode ? "outline-light" : "outline-dark" lassName="sbtn"}>
+                                      <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">
                                     View
                                 </Button></a>&nbsp;</Card.Text>
                                 </Card.Body>
