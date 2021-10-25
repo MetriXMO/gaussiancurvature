@@ -43,7 +43,7 @@ MetriX Mathematical Olympiad held on 2020 Day 2 paper
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View</Button>
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
-                            </Card> </Col>
+                             </Card> </Col>
 <Col lg={6}>
                             <Card className="skill-nbcard">
                                 <Card.Body >
