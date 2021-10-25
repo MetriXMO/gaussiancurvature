@@ -32,14 +32,7 @@ function App() {
                     <Nav.Link href="#skills" className="link">Team</Nav.Link>
                     <Nav.Link href="#experience" className="link">MMO 2020</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
-                      <NavDropdown title="about" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#skills">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#skills">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#skills">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#contact">Separated link</NavDropdown.Item>
-        </NavDropdown>
-                </Nav>
+                   </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
