@@ -49,10 +49,10 @@
 .navbar .mr-auto .link{
     margin-left: 20px;
     font-size: large;
-    color: #000000;
+    color: var(--oreo);
 }
 .navbar .mr-auto .link:visited{
-    color: var(--hello);
+    color: var(--oreo);
 }
 .navbar .mr-auto .link:hover{
     color: var(--name);
@@ -69,7 +69,7 @@
     padding: 15px;
 }
 .text{
-    color: #000000;
+    color: var(--oreo);
 }
 .hello-img{
     margin-top: 10px;
