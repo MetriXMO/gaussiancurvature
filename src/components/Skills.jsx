@@ -43,7 +43,7 @@ const Skills = ({ darkMode }) => {
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
 
-                             </Card> 
+                             </Card><Col>  <Col lg={6}>
 <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500"/>
   <Card.Body>
