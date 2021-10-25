@@ -23,10 +23,11 @@ const Skills = ({ darkMode }) => {
                             <br></br>
                             <Card className="skill-nbcard">
                                 <Card.Body>
-                                    <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500" /></Card.Title>
+                                    <Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500" /></Card.Title>
                                     <Card.Text><h4><b>MMO 2020 Day 1</b></h4>
                                                      <hr/>
 MetriX Mathematical Olympiad held on 2020 Day 1 paper
+  <br></br>
 <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View</Button>
                                         </a>&nbsp;</Card.Text>
@@ -38,7 +39,9 @@ MetriX Mathematical Olympiad held on 2020 Day 1 paper
                                    <Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500"/></Card.Title>
                                    <Card.Text><h4><b>MMO 2020 Day 2</b></h4>
                                                 
-MetriX Mathematical Olympiad held on 2020 Day 2 paper
+MetriX Mathematical Olympiad held on 2020 Day 2 paper  
+    <br></br>
+
  <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%202.pdf" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View</Button>
                                         </a>&nbsp;</Card.Text>
@@ -49,6 +52,7 @@ MetriX Mathematical Olympiad held on 2020 Day 2 paper
                                 <Card.Body >
                                     <Card.Title>MMO 2020 Samples</Card.Title>
                                     <Card.Text>Will be uploaded
+                                      <br></br>
 <hr/>                        <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
                                       <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">
                                     View
