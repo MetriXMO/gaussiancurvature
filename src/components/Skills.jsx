@@ -34,6 +34,7 @@ const Skills = ({ darkMode }) => {
                             </Card></Col>
  <Col lg={6}>
                             <Card className="skill-nbcard">
+                                <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} />
                                 <Card.Body >
                                    <Card.Title align="center"><img src={darkMode ? helloDark1 : helloLight1} alt="hello" className="hello-img" width="500"/></Card.Title>
                                    <Card.Text align="left"><h4>MMO 2020 Day 2</h4>
