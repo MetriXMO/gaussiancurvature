@@ -10,8 +10,6 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
-function AlertDismissibleExample() {
-  const [show, setShow] = useState(true);
 
 
 
@@ -57,7 +55,9 @@ const Skills = ({ darkMode }) => {
                 </Container>
             </Slide>
         </div>
-    if (show) {
+function AlertDismissibleExample() {
+  const [show, setShow] = useState(true);
+  if (show) {
     return (
       <Alert variant="warning" onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
