@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
+import Alert from 'react-bootstrap/Alert';
 
 
 const Skills = ({ darkMode }) => {
@@ -46,6 +47,11 @@ const Skills = ({ darkMode }) => {
 
                              </Card></Col>  
                     </Row>
+].map((variant, idx) => (
+  <Alert key={idx} variant="warning">
+    Registration is going to start !
+  </Alert>
+));
                     <br></br>
                     <hr></hr>
                 </Container>
