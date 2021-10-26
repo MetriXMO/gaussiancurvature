@@ -59,7 +59,7 @@ const Skills = ({ darkMode }) => {
         </div>
     if (show) {
     return (
-      <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+      <Alert variant="warning" onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
         <p>
           Change this and that and try again. Duis mollis, est non commodo
