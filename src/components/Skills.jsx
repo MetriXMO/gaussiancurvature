@@ -26,8 +26,8 @@ const Skills = ({ darkMode }) => {
                                 <Card.Body>
                                     <Card.Title align="center"><img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="500" /></Card.Title>
                                     <Card.Text align="left"><h4> MMO 2020 Day 1</h4>
-                                                      <hr/>MetriX Mathematical Olympiad held on 2020 Day 1 paper
-  <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"><br/>
+                                                      <hr/>MetriX Mathematical Olympiad held on 2020 Day 1 paper <br/>
+  <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "dark" : "dark"} className="dark" align="left">Download</Button>
                                         </a>&nbsp;</Card.Text>
                                 </Card.Body>
