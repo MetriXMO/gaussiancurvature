@@ -1,5 +1,5 @@
 import { React } from 'react'
-import { Zoom, Fade } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 import Container from 'react-bootstrap/esm/Container'
 
 
