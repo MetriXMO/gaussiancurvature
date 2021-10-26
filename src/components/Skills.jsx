@@ -69,7 +69,7 @@ function AlertDismissibleExample() {
       </Alert>
     );
   }
-  return <Button onClick={() => setShow(true)}>Show Alert</Button>;
+  return <Button variant="dark" onClick={() => setShow(true)}>Important Announcement</Button>;
 }
 <AlertDismissibleExample />
     )
