@@ -27,7 +27,7 @@ function AlertDismissibleExample() {
   }
   return <Button variant="dark" onClick={() => setShow(true)}>Important Announcement</Button>;
 }
-render(<AlertDismissibleExample />);
+
 
 
 const Skills = ({ darkMode }) => {
