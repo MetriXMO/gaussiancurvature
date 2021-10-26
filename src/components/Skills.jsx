@@ -26,7 +26,7 @@ import Alert from 'react-bootstrap/Alert';
     );
   }
   return <Button variant="dark" onClick={() => setShow(true)}>Important Announcement</Button>;
-}
+
 
 
 
