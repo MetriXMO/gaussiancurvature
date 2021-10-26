@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
 
-function AlertDismissibleExample() {
+
   const [show, setShow] = useState(true);
   if (show) {
     return (
