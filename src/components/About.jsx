@@ -1,4 +1,4 @@
-import { useState, React } from 'react'
+import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import Card from 'react-bootstrap/Card'
