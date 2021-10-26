@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState, React } from 'react'
 import { Slide } from "react-awesome-reveal";
 import helloLight from '../components/god.png';
 import helloDark from '../components/god.png';
