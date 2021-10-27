@@ -30,7 +30,7 @@ import Alert from 'react-bootstrap/Alert';
   return <Button onClick={() => setShow(true)}>Show Alert</Button>;
 }
 
-<AlertDismissibleExample />;
+
  
 
 
@@ -70,7 +70,7 @@ const Skills = ({ darkMode }) => {
 
                              </Card></Col>  
                     </Row>
-
+<AlertDismissibleExample />;
 
                     <br></br>
                     <hr></hr>
