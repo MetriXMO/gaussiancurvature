@@ -80,7 +80,7 @@ const About = ({ darkMode }) => {
                                 </Card.Body></Card>
             </Col>
  
-            </Row> &nbsp;&nbsp;      <Row>    
+            </Row> &nbsp;    <Row>    
 
                                    <Col lg={6} align="center">
                <Card className="skill-nbcard">
@@ -135,7 +135,7 @@ const About = ({ darkMode }) => {
 
                                           </ul></Card.Text>
                                 </Card.Body></Card>
- </Row>&nbsp;&nbsp; <Row> </Col>
+ </Col> </Row> &nbsp;
   <Col lg={12}>
                <Card className="skill-nbcard">
                                 <Card.Body>
