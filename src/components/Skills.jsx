@@ -70,9 +70,10 @@ const Skills = ({ darkMode }) => {
 
                              </Card></Col>  
                     </Row>
-<AlertDismissibleExample />;
+
 
                     <br></br>
+<AlertDismissibleExample />
                     <hr></hr>
                 </Container>
             </Slide>
