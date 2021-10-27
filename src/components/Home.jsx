@@ -3,6 +3,32 @@ import { AttentionSeeker } from 'react-awesome-reveal';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
+import ReactDOM from "react-dom";
+import pan from "./cap";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <pan />
+  </React.StrictMode>,
+  rootElement
+    return ( 
+                   <Row>
+                       <Col lg={12} xs={12}>
+                        <h2 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h2>
+                        <h2 className="lead" align="center">
+                            <span
+                                class="txt-rotate"
+                                data-period="2000"
+                                data-rotate='[ " MetriX Mathematical Olympiad", " Is An IMO-Type Contest", " Held Online", "Every Year" ]'>
+                            </span>
+                        </h2>
+                 </Col>
+                </Row>
+    
+)
+
+
 
 const Home = ({ darkMode }) => {
     return (
