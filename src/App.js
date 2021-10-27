@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react'
+import DropdownButton from 'react-bootstrap/DropdownButton'
 import helloLight from '../src/hello-light.png';
 import helloDark from '../src/hello-dark.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -34,7 +35,14 @@ function App() {
                     <Nav.Link href="#skills" className="link">Team</Nav.Link>
                     <Nav.Link href="#experience" className="link">MMO 2020</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
-                   </Nav>
+ <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#contact">Action</NavDropdown.Item>
+          <NavDropdown.Item href="#contact">Another action</NavDropdown.Item>
+          <NavDropdown.Item href="#contact">Something</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#contact">Separated link</NavDropdown.Item>
+        </NavDropdown>
+                </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
