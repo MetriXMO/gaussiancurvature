@@ -25,7 +25,7 @@ import Alert from 'react-bootstrap/Alert';
       </Alert>
     );
   }
-  return <Button variant="dark" onClick={() => setShow(true)}>Latest Updates, CLick to Know !</Button>;
+  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcemnts!</Button>;
 }
 
 
