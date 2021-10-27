@@ -47,4 +47,4 @@ export default function cap() {
     />
   );
 }
-export Default cap;
+export default cap;
