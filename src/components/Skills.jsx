@@ -12,10 +12,12 @@ import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
 
 
+ function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
+
   if (show) {
     return (
-      <Alert variant="light" onClose={() => setShow(false)} dismissible>
+      <Alert variant="danger" onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
         <p>
           Change this and that and try again. Duis mollis, est non commodo
@@ -24,8 +26,11 @@ import Alert from 'react-bootstrap/Alert';
         </p>
       </Alert>
     );
- return <Button variant="dark" onClick={() => setShow(true)}>Important Announcement</Button>;
   }
+  return <Button onClick={() => setShow(true)}>Show Alert</Button>;
+}
+
+render(<AlertDismissibleExample />);
  
 
 
