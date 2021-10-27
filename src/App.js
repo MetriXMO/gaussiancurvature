@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import helloLight from '../src/hello-light.png';
 import helloDark from '../src/hello-dark.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,17 +30,10 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link">About</Nav.Link>
-                    <Nav.Link href="#skills" className="link">Team</Nav.Link>
-                    <Nav.Link href="#experience" className="link">MMO 2020</Nav.Link>
-                    <Nav.Link href="#contact" className="link">Contact</Nav.Link>
- <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#contact">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#contact">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#contact">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#contact">Separated link</NavDropdown.Item>
-        </NavDropdown>
+                    <Nav.Link href="#about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="#skills" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="#experience" className="link"><h5>MMO 2020</h5></Nav.Link>
+                    <Nav.Link href="#contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
