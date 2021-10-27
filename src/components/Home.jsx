@@ -22,14 +22,14 @@ const Home = ({ darkMode }) => {
                 </Row>
                 <Row>
 
-<div align="center"  >  <Col lg={14}>
+<div align="center"  >  <Col lg={12}>
  <Card className="nbcard">
                 <Card.Body>
                  <br></br>
-                  <Card.Text>
-                 MetriX Mathematical Olympiad or  MMO, as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is supposed to be held online mode every year and absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
-To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is an single stage competition.This contest can be participated by participants from any country. However this contest is given by respective individuals.
-                  </Card.Text>
+                  <Card.Text><h6>
+                 MetriX Mathematical Olympiad or  MMO as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is supposed to be held online mode every year and absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
+To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is an single stage competition. This contest can be participated by participants from any country. However this contest is given by respective individuals. </h6> 
+            </Card.Text>
                 </Card.Body>
               </Card>
 </Col></div>
