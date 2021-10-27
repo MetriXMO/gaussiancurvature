@@ -5,7 +5,24 @@ import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Alert from 'react-bootstrap/Alert';
 
+
+ function AlertDismissibleExample() {
+  const [show, setShow] = useState(true);
+
+  if (show) {
+    return (
+      <Alert variant="warning" onClose={() => setShow(false)} dismissible>
+        <Alert.Heading>Announcement</Alert.Heading>
+        <p>
+          MMO Registartion is going to start very soon, time to get thrilled and excited !
+        </p>
+      </Alert>
+    );
+  }
+  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcemnts!</Button>;
+}
 const About = ({ darkMode }) => {
 
   var TxtRotate = function (el, toRotate, period) {
@@ -76,7 +93,8 @@ const About = ({ darkMode }) => {
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>MMO 2021</Card.Title>
-                                    <Card.Text><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December.The rules and regulations of the contest is identical to its previous year rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck and stay safe.</Card.Text>
+                                    <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December.The rules and regulations of the contest is identical to its previous year rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck and stay safe. <br></br>
+<AlertDismissibleExample /></Card.Text>
                                 </Card.Body></Card>
             </Col>
  
@@ -134,7 +152,7 @@ const About = ({ darkMode }) => {
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>MMO 2020</Card.Title>
-                                    <Card.Text><hr/>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
+                                    <Card.Text align="left"><hr/>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
                                 </Card.Body></Card>
             </Col>
 </Row>
