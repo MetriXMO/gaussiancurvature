@@ -22,7 +22,7 @@ import Button from 'react-bootstrap/Button'
       </Alert>
     );
   }
-  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcemnts!</Button>;
+  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcements!</Button>;
 }
 const About = ({ darkMode }) => {
 
