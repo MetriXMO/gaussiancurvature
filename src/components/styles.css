@@ -11,7 +11,7 @@
 }
 
 [data-theme="dark"] {
-    --bg-color: #0B0645;
+    --bg-color: #2a2d32;
     --text-color: #2aafe8;
     --page-color: #0B0645;
     --description: #2aafe8;
@@ -20,6 +20,7 @@
     --border-width: 2px;
     --aritra:#0c96f5;
      --oreo: #0c96f5; 
+    
 
 }
 
