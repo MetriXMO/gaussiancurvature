@@ -126,16 +126,10 @@ const About = ({ darkMode }) => {
 <li>lneis1</li>
  <li>Awesome_Guy</li>
 
-
-
-
-
-
-
-
-                                          </ul></Card.Text>
-                                </Card.Body></Card>
+</ul></Card.Text>
+</Card.Body></Card>
  </Col> </Row> &nbsp;
+<Row>
   <Col lg={12}>
                <Card className="skill-nbcard">
                                 <Card.Body>
