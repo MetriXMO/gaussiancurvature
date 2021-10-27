@@ -2,8 +2,6 @@ import { useState, React } from 'react';
 import { Fade } from 'react-awesome-reveal'
 import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
-import contactLight from '../media/contact-light.svg';
-import contactDark from '../media/contact-dark.svg';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
@@ -51,7 +49,7 @@ const Contact = ({ darkMode }) => {
                             <h2 className="lead">Contact Us!</h2>
                             <p className="contact-text">Drop a suggestion, feedback, opportunities or if any doubts. Our gmail is <strong>gaussiancurv180@gmail.com</strong></p>
                             <br></br>
-                            <img src={darkMode ? contactDark : contactLight} alt="contact" className="contact-img img-fluid" />
+                            
                             <br></br>
                         </Col>
                         <Col lg={8}>
