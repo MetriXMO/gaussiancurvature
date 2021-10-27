@@ -2,7 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import "./components/styles.css";
 
-export default function cap() {
+export default function cap1() {
   return (
     <Particles
       params={{
@@ -47,4 +47,4 @@ export default function cap() {
     />
   );
 }
-export default cap;
+export default cap1;
