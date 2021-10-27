@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import ReactDOM from "react-dom";
-import pan from "./cap";
+import pan from "./cap1";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
