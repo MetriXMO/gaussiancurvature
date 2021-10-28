@@ -20,7 +20,7 @@ const Experience = ({ darkMode }) => {
                   </Container>
             </Fade>
             <br></br>
-            <hr></hr>
+         
             <br></br>
         </div>
     )
