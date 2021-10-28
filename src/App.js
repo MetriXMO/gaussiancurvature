@@ -113,7 +113,7 @@ function App() {
             </Navbar.Collapse>
           </Navbar>
  <div id="skills">
-          <Experience darkMode={darkMode} />
+          <Skills darkMode={darkMode} />
       </div>
  <Footer />
 </Route>
@@ -135,7 +135,7 @@ function App() {
             </Navbar.Collapse>
           </Navbar>
  <div id="contact">
-          <Experience darkMode={darkMode} />
+          <Contact darkMode={darkMode} />
       </div>
  <Footer />
 </Route>
@@ -156,7 +156,7 @@ function App() {
             </Navbar.Collapse>
           </Navbar>
  <div id="contact">
-          <Experience darkMode={darkMode} />
+          <Contact darkMode={darkMode} />
       </div>
  <Footer />
 </Route>
