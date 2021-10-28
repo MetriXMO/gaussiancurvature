@@ -44,7 +44,7 @@ const Contact = ({ darkMode }) => {
 
             <Fade>
                 <Container align="center">
-                      <h2 className="lead">Contact Us!</h2>
+                      <h2 className="lead">Contact Us</h2>
                     <Row>
       
 <br></br>
