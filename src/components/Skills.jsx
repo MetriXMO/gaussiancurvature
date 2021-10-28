@@ -72,7 +72,7 @@ const Skills = ({ darkMode }) => {
 
                     <br></br>
 <AlertDismissibleExample />
-                    <hr></hr>
+                
                 </Container>
             </Slide>
         </div>
