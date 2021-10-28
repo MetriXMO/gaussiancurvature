@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row'
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
 import Tab from 'react-bootstrap/Tab'
+import Tabs from 'react-bootstrap/Tabs'
 
 <Tabs
   defaultActiveKey="home"
