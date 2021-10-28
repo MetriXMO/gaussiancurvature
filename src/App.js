@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react'
-import helloLight from '../src/hello-light.png';
-import helloDark from '../src/hello-dark.png';
+import helloLight from '../src/lol.png';
+import helloDark from '../src/lol1.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -63,13 +63,7 @@ function App() {
           </div>
           <Footer />
           </Route>
-          <br></br>
-<br></br>
-&nbsp;&nbsp;
-<br></br>
-
-
-          <Route path="/experience">
+ <Route path="/experience">
  <div id="experience">
           <Experience darkMode={darkMode} />
       </div>
