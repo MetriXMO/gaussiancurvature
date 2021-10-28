@@ -48,7 +48,7 @@ const Contact = ({ darkMode }) => {
                     <Row>
       
 <br></br>
-Feel free to contact us anytime however don't contact for non formal things anytime. Our gmail is <strong>gaussiancurv180@gmail.com</strong>.
+Feel free to contact us anytime however don't contact for non formal things anytime. Our gmail is gaussiancurv180@gmail.com.
                 <br></br>
                         <Col lg={12}>
                             <br></br>
