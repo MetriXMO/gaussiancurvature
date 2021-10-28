@@ -26,7 +26,7 @@ const Home = ({ darkMode }) => {
                  </Col>
                 </Row>
                 <Row>
-
+ <Particles />
 <div align="center"  >  <Col lg={10}>
  <Card className="nbcard">
                 <Card.Body>
@@ -43,7 +43,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
   
 
             </AttentionSeeker>
- <Particles />
+
             <br></br>
             <hr></hr>
         </div>
