@@ -48,7 +48,7 @@ const Contact = ({ darkMode }) => {
                     <Row>
       
 <br></br>
-<div className=lead">
+<div className="lead">
 <h6>Feel free to contact us anytime however don't contact for non formal things anytime. Our gmail is gaussiancurv180@gmail.com. </h6>
 </div>
                 <br></br>
