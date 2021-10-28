@@ -184,9 +184,7 @@ const About = ({ darkMode }) => {
             </Col>
 </Row>
 
-          <br></br>
-          <hr></hr>
-          <br></br>
+      
  </Container>
       </Fade>
     </div>
