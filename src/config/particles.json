@@ -106,6 +106,7 @@
                 }
             }
         },
-        "retina_detect": true
+       "detectRetina": true,
+  "fpsLimit": 60
     }
-);
+
