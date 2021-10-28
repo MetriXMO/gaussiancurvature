@@ -4,7 +4,7 @@ import helloLight from '../src/hello-light.png';
 import helloDark from '../src/hello-dark.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home, About, Skills, Experience, Contact, Footer } from './components'
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
@@ -15,9 +15,20 @@ import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
 
 
-
 function App() {
-
+return (
+    <div className="App">
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path="/" exact component={() => <Home />} />
+          <Route path="/about" exact component={() => <About />} />
+          <Route path="/contact" exact component={() => <Contact />} />
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
+  );
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
 
