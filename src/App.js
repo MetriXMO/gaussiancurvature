@@ -16,18 +16,12 @@ import './components/styles.css'
 
 
 function App() {
-return (
-    <div className="App">
-      <Router>
- <Switch>
-          <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/contact" exact component={() => <Contact />} />
-        </Switch>
-        <Footer />
-      </Router>
-    </div>
-  );
+
+  
+      
+ 
+   
+
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
 
@@ -72,6 +66,13 @@ return (
 <br></br>
 &nbsp;&nbsp;
 <br></br>
+<Switch>
+
+          <Route path="/about" exact component={() => <About />} />
+          <Route path="/contact" exact component={() => <Contact />} />
+        </Switch>
+        <Footer />
+     
 
       </div>
     </Router>
