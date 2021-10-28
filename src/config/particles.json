@@ -105,8 +105,9 @@
                     "particles_nb": 2
                 }
             }
-        }
+        },
         
        "detectRetina": true,
-
+  "fpsLimit": 5
+}
 
