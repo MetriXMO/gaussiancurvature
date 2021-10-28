@@ -69,8 +69,19 @@ function App() {
 <br></br>
 
 
-          <Route path="/about" exact component={() => <about />} />
-          <Route path="/contact" exact component={() => <contact />} />
+          <Route path="/about">
+ <div id="experience">
+          <Experience darkMode={darkMode} 
+      </div>
+ <Footer />
+</Route>
+    
+          <Route path="/about">
+            <div id="about">
+          <About darkMode={darkMode} />
+          </div>
+ <Footer />
+</Route>
         </Switch>
         <Footer />
      
