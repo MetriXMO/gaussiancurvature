@@ -61,7 +61,7 @@ const Contact = ({ darkMode }) => {
                                 <Form.Group>
                                     <Form.Control onChange={e => onInputChange(e)} value={templateParams.message} name="message" as="textarea" rows={8} className="ph msg" placeholder="Enter your message" required />
                                 </Form.Group>
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
+                                <Button variant={darkMode ? "dark" : "dark"} type="submit">
                                     Submit
                                 </Button>
                             </Form>
