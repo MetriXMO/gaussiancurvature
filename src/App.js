@@ -45,7 +45,6 @@ function App() {
                 </Button>
             </Navbar.Collapse>
           </Navbar>
-         component = {home}
           <div id="home">
           <Home darkMode={darkMode} />
           </div>
