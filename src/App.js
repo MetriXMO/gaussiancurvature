@@ -69,9 +69,9 @@ function App() {
 <br></br>
 
 
-          <Route path="/about">
+          <Route path="/experience">
  <div id="experience">
-          <Experience darkMode={darkMode} 
+          <Experience darkMode={darkMode} />
       </div>
  <Footer />
 </Route>
@@ -83,6 +83,7 @@ function App() {
  <Footer />
 </Route>
         </Switch>
+
         <Footer />
      
 
