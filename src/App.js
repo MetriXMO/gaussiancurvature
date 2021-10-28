@@ -26,10 +26,10 @@ function App() {
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
 
   return (
-    <Router>
+  <BrowserRouter>
       <div className="App" data-theme={darkMode ? "dark" : "light"}>
     <Switch>
-        <Route path="/">
+        <Route path="/home">
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
             <Navbar.Brand href="#home" className="navname">  <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="150" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -82,7 +82,8 @@ function App() {
      
 
       </div>
-    </Router>
+</BrowserRouter>
+  
   );
 }
 
