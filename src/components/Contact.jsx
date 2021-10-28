@@ -41,18 +41,15 @@ const Contact = ({ darkMode }) => {
     return (
         <div data-theme={darkMode ? "dark" : "light"}>
             <br></br>
+
             <Fade>
-                <Container>
+                <Container align="center">
                     <Row>
-                        <Col lg={4}>
-                            <br></br>
-                            <h2 className="lead">Contact Us!</h2>
-                            <p className="contact-text">Drop a suggestion, feedback, opportunities or if any doubts. Our gmail is <strong>gaussiancurv180@gmail.com</strong></p>
-                            <br></br>
-                            
-                            <br></br>
-                        </Col>
-                        <Col lg={8}>
+        <h2 className="lead">Contact Us!</h2>
+<br></br>
+Feel free to contact us anytime however don't contact for non formal things anytime. Our gmail is <strong>gaussiancurv180@gmail.com</strong>.
+                
+                        <Col lg={12}>
                             <br></br>
                             <Form onSubmit={e => onSubmit(e)}>
                                 <Form.Group>
