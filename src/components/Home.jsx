@@ -25,7 +25,7 @@ const Home = ({ darkMode }) => {
                  </Col>
                 </Row>
                 <Row>
-
+<br> </br>
 <div align="center"  >  <Col lg={10}>
 <h6 class="lead" align="left">
                  MetriX Mathematical Olympiad or  MMO as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is supposed to be held online mode every year and absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
