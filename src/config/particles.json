@@ -108,6 +108,6 @@
         },
         
        "detectRetina": true,
-  "fpsLimit": 5
+  "fpsLimit": 100
 }
 
