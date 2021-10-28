@@ -46,8 +46,9 @@ return (
       </Alert>
     );
   }
-  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcements!</Button>;
+  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know About Latest Announcements</Button>;
 }
+
 const About = ({ darkMode }) => {
 
   var TxtRotate = function (el, toRotate, period) {
@@ -121,7 +122,7 @@ const About = ({ darkMode }) => {
                                     <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
 <br></br>
 <br></br>
-<AlertDismissibleExample /></Card.Text>
+<AlertDismissibleExample /> &nbsp; &nbsp; </Card.Text>
                                 </Card.Body></Card>
             </Col>
  
