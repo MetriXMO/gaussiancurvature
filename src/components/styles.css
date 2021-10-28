@@ -1,15 +1,3 @@
-:root{
-    --bg-color: #fff3cd;
-    --text-color: #e98074 ;
-    --page-color: #f0f0e1;
-    --hello: #8e8d8a;
-    --description: #e98074;
-    --name:#e98074;
-    --border-width: 1px;
-    --aritra:#e98074;
-    --oreo:#8e8d8a;
-}
-
 [data-theme="dark"] {
     --bg-color: #252627;
     --text-color: #0c96f5;
@@ -23,6 +11,20 @@
     
 
 }
+
+:root{
+    --bg-color: #fff3cd;
+    --text-color: #e98074 ;
+    --page-color: #f0f0e1;
+    --hello: #8e8d8a;
+    --description: #e98074;
+    --name:#e98074;
+    --border-width: 1px;
+    --aritra:#e98074;
+    --oreo:#8e8d8a;
+}
+
+
 
 .App{
     background-color: var(--page-color);
