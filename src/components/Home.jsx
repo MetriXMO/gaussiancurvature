@@ -3,7 +3,7 @@ import { AttentionSeeker } from 'react-awesome-reveal';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
-import Particles from "./components/particles";
+import Particles from "../components/particles";
 
 
 
@@ -43,7 +43,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
   
 
             </AttentionSeeker>
-
+ <Particles />
             <br></br>
             <hr></hr>
         </div>
