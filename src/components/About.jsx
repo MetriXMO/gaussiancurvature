@@ -10,6 +10,9 @@ import Button from 'react-bootstrap/Button'
 import Tab from 'react-bootstrap/Tab'
 import Tabs from 'react-bootstrap/Tabs'
 
+function ControlledTabs() {
+  const [key, setKey] = useState('home');
+return (
 <Tabs
   defaultActiveKey="home"
   transition={false}
@@ -26,7 +29,9 @@ import Tabs from 'react-bootstrap/Tabs'
    bapa
   </Tab>
 </Tabs>
-
+);
+}
+<ControlledTabs />
 
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
