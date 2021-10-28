@@ -7,6 +7,24 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
+import Tab from 'react-bootstrap/Tab'
+
+<Tabs
+  defaultActiveKey="home"
+  transition={false}
+  id="noanim-tab-example"
+  className="mb-3"
+>
+  <Tab eventKey="home" title="Home">
+   kimmy 
+  </Tab>
+  <Tab eventKey="profile" title="Profile">
+    danpa
+  </Tab>
+  <Tab eventKey="contact" title="Contact" disabled>
+   bapa
+  </Tab>
+</Tabs>
 
 
  function AlertDismissibleExample() {
