@@ -14,10 +14,10 @@ function ControlledTabs() {
   const [key, setKey] = useState('home');
 return (
 <Tabs
-  defaultActiveKey="home"
-  transition={false}
-  id="noanim-tab-example"
-  className="mb-3"
+ id="controlled-tab-example"
+      activeKey={key}
+      onSelect={(k) => setKey(k)}
+      className="mb-3"
 >
   <Tab eventKey="home" title="Home">
    kimmy 
