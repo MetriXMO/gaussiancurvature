@@ -4,7 +4,7 @@ import helloLight from '../src/lol.png';
 import helloDark from '../src/lol1.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home, About, Skills, Experience, Contact, Footer } from './components'
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
