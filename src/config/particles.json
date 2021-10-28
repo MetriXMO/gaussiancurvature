@@ -501,12 +501,11 @@
       "opacityRate": 1,
       "sizeRate": 1,
       "velocityRate": 1
-    }
-  },
+ },
   "pauseOnBlur": true,
   "pauseOnOutsideViewport": true,
   "responsive": [],
   "themes": [],
   "zLayers": 100
-}
+};
           }
