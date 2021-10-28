@@ -29,7 +29,7 @@ function App() {
   <BrowserRouter>
       <div className="App" data-theme={darkMode ? "dark" : "light"}>
     <Switch>
-        <Route path="/">
+        <Route exact path="/" >
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
             <Navbar.Brand href="#home" className="navname">  <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="150" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -45,7 +45,7 @@ function App() {
                 </Button>
             </Navbar.Collapse>
           </Navbar>
-         
+         component = {home}
           <div id="home">
           <Home darkMode={darkMode} />
           </div>
