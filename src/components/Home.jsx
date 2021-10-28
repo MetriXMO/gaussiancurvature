@@ -13,7 +13,7 @@ const Home = ({ darkMode }) => {
     return (
         <div>
             <AttentionSeeker shakeX>
-                <Row>
+                <Row>  <Particles />
                        <Col lg={12} xs={12}>
                         <h2 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h2>
                         <h2 className="lead" align="center">
@@ -26,7 +26,7 @@ const Home = ({ darkMode }) => {
                  </Col>
                 </Row>
                 <Row>
- <Particles />
+
 <div align="center"  >  <Col lg={10}>
  <Card className="nbcard">
                 <Card.Body>
