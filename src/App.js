@@ -35,6 +35,7 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
+                  <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
@@ -56,14 +57,16 @@ function App() {
           </Route>
  <Route path="/sponsors">
     <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname">  <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="150" /></Navbar.Brand>
+            <Navbar.Brand href="#home" className="navname">  <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="145" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="#skills" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="#experience" className="link"><h5>MMO 2020</h5></Nav.Link>
-                    <Nav.Link href="#contact" className="link"><h5>Contact</h5></Nav.Link>
+                <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Home</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
@@ -82,10 +85,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="#skills" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="#experience" className="link"><h5>MMO 2020</h5></Nav.Link>
-                    <Nav.Link href="#contact" className="link"><h5>Contact</h5></Nav.Link>
+                  <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Home</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
@@ -103,10 +108,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="#skills" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="#experience" className="link"><h5>MMO 2020</h5></Nav.Link>
-                    <Nav.Link href="#contact" className="link"><h5>Contact</h5></Nav.Link>
+                   <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Home</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
@@ -125,10 +132,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="#skills" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="#experience" className="link"><h5>MMO 2020</h5></Nav.Link>
-                    <Nav.Link href="#contact" className="link"><h5>Contact</h5></Nav.Link>
+                   <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Home</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
@@ -146,10 +155,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="#skills" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="#experience" className="link"><h5>MMO 2020</h5></Nav.Link>
-                    <Nav.Link href="#contact" className="link"><h5>Contact</h5></Nav.Link>
+                   <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Home</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
                     {darkMode ? "Light Mode" : "Dark Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
