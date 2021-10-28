@@ -44,11 +44,12 @@ const Contact = ({ darkMode }) => {
 
             <Fade>
                 <Container align="center">
+                      <h2 className="lead">Contact Us!</h2>
                     <Row>
-        <h2 className="lead">Contact Us!</h2>
+      
 <br></br>
 Feel free to contact us anytime however don't contact for non formal things anytime. Our gmail is <strong>gaussiancurv180@gmail.com</strong>.
-                
+                <br></br>
                         <Col lg={12}>
                             <br></br>
                             <Form onSubmit={e => onSubmit(e)}>
