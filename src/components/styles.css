@@ -1,19 +1,6 @@
 [data-theme="dark"] {
-    --bg-color: #252627;
-    --text-color: #0c96f5;
-    --page-color: #2a2d32;
-    --description: #0c96f5;
-    --hello: #0c96f5;
-    --name: #0c96f5;
-    --border-width: 2px;
-    --aritra:#0c96f5;
-     --oreo: #0c96f5; 
-    
-
-}
-
-:root{
-    --bg-color: #fff3cd;
+  
+     --bg-color: #fff3cd;
     --text-color: #e98074 ;
     --page-color: #f0f0e1;
     --hello: #8e8d8a;
@@ -22,6 +9,19 @@
     --border-width: 1px;
     --aritra:#e98074;
     --oreo:#8e8d8a;
+
+}
+
+:root{
+     --bg-color: #252627;
+    --text-color: #0c96f5;
+    --page-color: #2a2d32;
+    --description: #0c96f5;
+    --hello: #0c96f5;
+    --name: #0c96f5;
+    --border-width: 2px;
+    --aritra:#0c96f5;
+     --oreo: #0c96f5; 
 }
 
 
