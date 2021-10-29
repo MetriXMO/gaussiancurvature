@@ -42,16 +42,19 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
 
             <br></br>
             <hr></hr>
-<Row>
-  <Col lg={12}>
+   <Row>
+            <Col lg={12} align='center'>
                <Card className="skill-nbcard">
                                 <Card.Body>
-                                    <Card.Title>MMO 2020</Card.Title>
-                                    <Card.Text align="left"><hr/>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
+                                    <Card.Title>MMO 2021</Card.Title>
+                                    <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
+<br></br>
+<br></br>
+<AlertDismissibleExample /> &nbsp; </Card.Text>
                                 </Card.Body></Card>
             </Col>
-</Row>
-
+ 
+            </Row> &nbsp;   
         </div>
     )
 }
