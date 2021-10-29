@@ -6,6 +6,7 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/Container'
 
 
  function AlertDismissibleExample() {
