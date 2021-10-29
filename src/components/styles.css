@@ -141,7 +141,7 @@ strong, .with{
     vertical-align: middle;
 }
 .skill-nbcard{
-    color: #ffffff;
+    color: var(--new);
     margin-top: 10px;
     background-color: var(--aritra);
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
