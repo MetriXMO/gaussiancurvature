@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 
 
-render() {
+
  
-  const columns = [
-    {
+  const columns = () => {
+  
         title: "Resources",
         resources: [
             {
@@ -51,12 +51,12 @@ render() {
             }
         ]
     }
- ];
- return {
+   };
+ return (
     columns={columns}
     
 
    
-};
+);
 
 export default Footer
