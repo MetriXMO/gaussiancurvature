@@ -13,7 +13,7 @@ const Footer = () => {
     <Box>
 
        
-      </h1>
+   
       <Container className="footer-text" >
         <Row>
           <Column>
