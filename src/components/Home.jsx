@@ -3,7 +3,7 @@ import { AttentionSeeker } from 'react-awesome-reveal';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
-
+import Card from 'react-bootstrap/Card'
 
 
 
@@ -42,6 +42,16 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
 
             <br></br>
             <hr></hr>
+<Row>
+  <Col lg={12}>
+               <Card className="skill-nbcard">
+                                <Card.Body>
+                                    <Card.Title>MMO 2020</Card.Title>
+                                    <Card.Text align="left"><hr/>MMO 2020 was held on November ofcouse in 2020 that is previous year online. It was mainly held on the aops site, for previous year papers you can visit this here. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.</Card.Text>
+                                </Card.Body></Card>
+            </Col>
+</Row>
+
         </div>
     )
 }
