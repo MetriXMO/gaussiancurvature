@@ -6,7 +6,7 @@ import React from "react"
   const columns = () => {
   
         title: "Resources",
-        resources: [
+        resources: {
             {
                 name: "About",
                 link: "/about"
@@ -23,11 +23,11 @@ import React from "react"
                 name: "Admin",
                 link: "/admin"
             }
-        ]
-    },
+        }
+    };
     {
         title: "Legal",
-        resources: [
+        resources: {
             {
                 name: "Privacy",
                 link: "/privacy"
@@ -36,11 +36,11 @@ import React from "react"
                 name: "Terms",
                 link: "/terms"
             }
-        ]
-    },
+         }
+    };
     {
         title: "Visit",
-        resources: [
+        resources: {
             {
                 name: "Locations",
                 link: "/locations"
@@ -49,7 +49,7 @@ import React from "react"
                 name: "Culture",
                 link: "/culture"
             }
-        ]
+        }
     }
    };
  return (
