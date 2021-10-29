@@ -4,11 +4,12 @@
     --text-color: #61dafb ;
     --page-color: #3371ff;
     --hello: #ffffff;
-    --description: #61dafb;
+    --description: #fff3cd;
     --name:#61dafb;
     --border-width: 1px;
-    --aritra:#61dafb;
+    --aritra:#fff3cd;
     --oreo:#00000;
+  --new: #000000;
 }
 
 :root{
@@ -21,6 +22,7 @@
     --border-width: 2px;
     --aritra:#0c96f5;
      --oreo: #0c96f5; 
+  --new: #ffffff;
 }
 
 
