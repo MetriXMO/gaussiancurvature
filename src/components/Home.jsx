@@ -6,7 +6,21 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 
 
+ function AlertDismissibleExample() {
+  const [show, setShow] = useState(true);
 
+  if (show) {
+    return (
+      <Alert variant="warning" onClose={() => setShow(false)} dismissible>
+        <Alert.Heading>Announcement</Alert.Heading>
+        <p>
+          MMO Registartion is going to start very soon, time to get thrilled and excited !
+        </p>
+      </Alert>
+    );
+  }
+  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know About Latest Announcements</Button>;
+}
 
 const Home = ({ darkMode }) => {
     return (
