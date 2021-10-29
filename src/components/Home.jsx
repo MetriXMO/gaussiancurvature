@@ -8,7 +8,7 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 
-
+const Home = ({ darkMode }) => {
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
 
@@ -25,7 +25,7 @@ import Container from 'react-bootstrap/Container'
   return <Button variant="dark" onClick={() => setShow(true)}>Click To Know About Latest Announcements</Button>;
 }
 
-const Home = ({ darkMode }) => {
+
     return (
         <div>
             <AttentionSeeker shakeX>
