@@ -1,5 +1,6 @@
 import { useState, React } from 'react'
 import { AttentionSeeker } from 'react-awesome-reveal';
+import 'animate.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
@@ -28,7 +29,7 @@ const Home = ({ darkMode }) => {
 
     return (
         <div>
-            <AttentionSeeker shakeX>
+            <AttentionSeeker pulse>
                 <Row>  <Particles />
                        <Col lg={12} xs={12}>
                         <h2 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h2>
