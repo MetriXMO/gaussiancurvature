@@ -1,62 +1,17 @@
-import React from "react"
+import React from 'react'
 
-
-
- 
-  const columns = () => {
-  
-        title: "Resources",
-        resources: {
-            {
-                name: "About",
-                link: "/about"
-            },
-            {
-                name: "Careers",
-                link: "/careers"
-            },
-            {
-                name: "Contact",
-                link: "/contact"
-            },
-            {
-                name: "Admin",
-                link: "/admin"
-            }
-        }
-    };
-    {
-        title: "Legal",
-        resources: {
-            {
-                name: "Privacy",
-                link: "/privacy"
-            },
-            {
-                name: "Terms",
-                link: "/terms"
-            }
-         }
-    };
-    {
-        title: "Visit",
-        resources: {
-            {
-                name: "Locations",
-                link: "/locations"
-            },
-            {
-                name: "Culture",
-                link: "/culture"
-            }
-        }
-    }
-   };
- return (
-    columns={columns}
-    
-
-   
-);
+const Footer = () => {
+    return (
+        <div>
+            <hr/>
+            <p className="footer-text"><b>MMO</b><br></br>
+                <br></br>
+                <small> Copyright © 2021 All rights reserved by MMO.</small><br></br>
+               
+            </p>
+        </div>
+    )
+}
 
 export default Footer
+
