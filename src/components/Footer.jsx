@@ -1,48 +1,65 @@
-import React from "react";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
-  
-const Footer = () => {
-  return (
-    <Box>
+import SimpleReactFooter from "simple-react-footer";
+...
 
-       
-   
-      <Container className="footer-text" >
-        <Row>
-          <Column>
-            <Heading>About Us</Heading>
-            <FooterLink href="/">Home</FooterLink>
-            <FooterLink href="/about">About</FooterLink>
-            <FooterLink href="/team">Team</FooterLink>
-          </Column>
-          <Column>
-            <Heading>MMO 2020</Heading>
-            <FooterLink href="/mmo2020">Writing</FooterLink>
-            <FooterLink href="/sponsors">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Contact and Privacy</Heading>
-            <FooterLink href="/contact">Contact</FooterLink>
-            <FooterLink href="#">Privacy policy</FooterLink>
-            <FooterLink href="#">Cookie policy</FooterLink>
-          </Column>
-      <br></br>
-All rights reserved © 2021 MMO
-          </Row>
-      </Container>
-    </Box>
-
-  );
+render() {
+ 
+  const columns = [
+    {
+        title: "Resources",
+        resources: [
+            {
+                name: "About",
+                link: "/about"
+            },
+            {
+                name: "Careers",
+                link: "/careers"
+            },
+            {
+                name: "Contact",
+                link: "/contact"
+            },
+            {
+                name: "Admin",
+                link: "/admin"
+            }
+        ]
+    },
+    {
+        title: "Legal",
+        resources: [
+            {
+                name: "Privacy",
+                link: "/privacy"
+            },
+            {
+                name: "Terms",
+                link: "/terms"
+            }
+        ]
+    },
+    {
+        title: "Visit",
+        resources: [
+            {
+                name: "Locations",
+                link: "/locations"
+            },
+            {
+                name: "Culture",
+                link: "/culture"
+            }
+        ]
+    }
+ ];
+ return <SimpleReactFooter 
+    columns={columns}
+    copyright="black"
+    iconColor="black"
+    backgroundColor="bisque"
+    fontColor="black"
+    copyrightColor="darkgrey"
+ />;
 };
-
 
 export default Footer
