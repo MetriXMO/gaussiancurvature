@@ -1,9 +1,11 @@
-import React from 'react'
+import { useState, React } from 'react'
 import { AttentionSeeker } from 'react-awesome-reveal';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
+import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button'
 
 
  function AlertDismissibleExample() {
