@@ -1,5 +1,5 @@
-import SimpleReactFooter from "simple-react-footer";
-...
+import React from "react";
+
 
 render() {
  
@@ -52,14 +52,11 @@ render() {
         ]
     }
  ];
- return <SimpleReactFooter 
+ return {
     columns={columns}
-    copyright="black"
-    iconColor="black"
-    backgroundColor="bisque"
-    fontColor="black"
-    copyrightColor="darkgrey"
- />;
+    
+
+   
 };
 
 export default Footer
