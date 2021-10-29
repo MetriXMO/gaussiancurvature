@@ -14,7 +14,7 @@ import Container from 'react-bootstrap/Container'
 
   if (show) {
     return (
-      <Alert variant="warning" onClose={() => setShow(false)} dismissible>
+      <Alert variant={darkMode ? "light" : "warning"} onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Announcement</Alert.Heading>
         <p>
           MMO Registartion is going to start very soon, time to get thrilled and excited !
