@@ -8,7 +8,7 @@ const Footer = () => {
             <hr/>
             <p className="footer-text"> <h6>MMO<h6>
                 <br></br><br></br>
-            <b> Copyright © 2021 MMO </b><br></br>
+            <b> Copyright &copy; 2021 MMO </b><br></br>
                
             </p>
         </div>
