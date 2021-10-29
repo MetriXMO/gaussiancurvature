@@ -1,14 +1,14 @@
 [data-theme="dark"] {
   
-     --bg-color: #fff3cd;
-    --text-color: #e98074 ;
-    --page-color: #f0f0e1;
-    --hello: #8e8d8a;
-    --description: #e98074;
-    --name:#e98074;
+     --bg-color: #20232a;
+    --text-color: #61dafb ;
+    --page-color: #ffffff;
+    --hello: #61dafb;
+    --description: #61dafb;
+    --name:#61dafb;
     --border-width: 1px;
-    --aritra:#e98074;
-    --oreo:#8e8d8a;
+    --aritra:#61dafb;
+    --oreo:#61dafb;
 
 }
 
