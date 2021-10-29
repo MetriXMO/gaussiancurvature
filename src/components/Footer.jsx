@@ -1,6 +1,6 @@
 import React from 'react'
-import helloLight from './src/components/oeye.png';
-import helloDark from './src/components/oeye.png';
+import helloLight from '../components/oeye.png';
+import helloDark from '../components/oeye.png';
 
 const Footer = () => {
     return (
