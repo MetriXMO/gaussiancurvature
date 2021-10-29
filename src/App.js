@@ -50,9 +50,6 @@ function App() {
           <div id="home">
           <Home darkMode={darkMode} />
           </div>
-          <div id="about">
-          <About darkMode={darkMode} />
-          </div>
           <Footer />
           </Route>
  <Route path="/sponsors">
