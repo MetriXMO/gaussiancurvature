@@ -1,6 +1,6 @@
 [data-theme="dark"] {
   
-     --bg-color: #282c34;
+     --bg-color: #fff3cd;
     --text-color: #61dafb ;
     --page-color: #3371ff;
     --hello: #ffffff;
@@ -8,7 +8,7 @@
     --name:#61dafb;
     --border-width: 1px;
     --aritra:#61dafb;
-    --oreo:#61dafb;
+    --oreo:#00000;
 
 }
 
