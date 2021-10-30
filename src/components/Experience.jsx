@@ -29,7 +29,7 @@ const Experience = ({ darkMode }) => {
          
             <br></br> <br></br>
          
-            <br></br> <br></br>
+            <br></br> 
          
             <br></br>
         </div>
