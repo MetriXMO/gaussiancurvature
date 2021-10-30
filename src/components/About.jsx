@@ -126,56 +126,7 @@ const About = ({ darkMode }) => {
                                 </Card.Body></Card>
             </Col>
  
-            </Row> &nbsp;    <Row>    
-
-                                   <Col lg={6} align="center">
-               <Card className="skill-nbcard">
-                                <Card.Body>
-                                    <Card.Title>Team 2021</Card.Title>
-                                    <Card.Text><ul align="left">
-                                            <li>MNJ2357</li>  <li>Mindstormer</li>  <li>TLP.39</li> <li>Aritra12</li><li>k12byda5h</li><li>CANBANKAN</li>
-
-       
-
- <li>EpicNumberTheory</li>
-
- <li>Orestis Lignos</li><li>Jelena</li>
-
-
-
-
- 
-
-
-
-
-
-
-                                          </ul></Card.Text>
-                                </Card.Body></Card>
-  </Col>
-                                   <Col lg={6} align="center">
-               <Card className="skill-nbcard">
-                                <Card.Body>
-                                    <Card.Title>Team 2021</Card.Title>
-                                    <Card.Text><ul align="left">
-                                              
-
- 
-<li>Starchan</li>
- <li>MathLuis</li>
-<li>Squareman</li>
- <li>GGHX</li>
- <li>Jupiter_is_Big</li>
- <li>oVlad</li>
-<li>phoenixfire</li>
-<li>lneis1</li>
- <li>Awesome_Guy</li>
-
-</ul></Card.Text>
-</Card.Body></Card>
- </Col> </Row> &nbsp;
-<Row>
+            </Row> &nbsp;   
   <Col lg={12}>
                <Card className="skill-nbcard">
                                 <Card.Body>
