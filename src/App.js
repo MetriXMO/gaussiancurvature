@@ -5,7 +5,7 @@ import helloDark from '../src/oeye.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Home, About, Skills, Experience, Contact, Footer } from './components'
+import { Home, About, Skills, Experience, Contact, Footer, Team } from './components'
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -37,7 +37,7 @@ function App() {
                 <Nav className="mr-auto">
                   <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
@@ -60,7 +60,7 @@ function App() {
                 <Nav className="mr-auto">
                 <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
@@ -84,7 +84,7 @@ function App() {
                 <Nav className="mr-auto">
                   <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
@@ -107,7 +107,7 @@ function App() {
                 <Nav className="mr-auto">
                    <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
@@ -122,7 +122,29 @@ function App() {
       </div>
  <Footer />
 </Route>
-
+<Route path="/team">
+    <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
+            <Navbar.Brand href="#home" className="navname">  <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="150" /></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                   <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                </Nav>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                    {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
+                </Button>
+            </Navbar.Collapse>
+          </Navbar>
+ <div id="team">
+          <Team darkMode={darkMode} />
+      </div>
+ <Footer />
+</Route>
 <Route path="/contact">
     <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
             <Navbar.Brand href="#home" className="navname">  <img src={darkMode ? helloDark : helloLight} alt="hello" className="hello-img" width="150" /></Navbar.Brand>
@@ -131,7 +153,7 @@ function App() {
                 <Nav className="mr-auto">
                    <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
@@ -154,7 +176,7 @@ function App() {
                 <Nav className="mr-auto">
                    <Nav.Link href="https://metrixmath-oly.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>Team</h5></Nav.Link>
+                    <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
