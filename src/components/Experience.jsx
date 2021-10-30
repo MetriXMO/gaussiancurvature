@@ -20,7 +20,8 @@ const Experience = ({ darkMode }) => {
                   </Container>
             </Fade>
             <br></br>
-         Prizes will be sponsored by Wolfram Alpha and other organsiation, We will inform you about the prizes very soon.
+        <h6 className="lead" align="center">
+         Prizes will be sponsored by Wolfram Alpha and other organsiation, We will inform you about the prizes very soon.</h6>
             <br></br> <br></br>
          
             <br></br> <br></br>
