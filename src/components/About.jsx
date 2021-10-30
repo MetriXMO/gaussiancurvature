@@ -119,12 +119,12 @@ const About = ({ darkMode }) => {
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>MMO 2021</Card.Title>
-                                    <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
+                                    <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed in the team's page, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
 <br></br>
 <br></br>
 <AlertDismissibleExample />  <br></br>
 <h6>Format</h6>
-As discussed before, the contest is an IMO-type contest and hence follows nearly all the formats as IMO does. However if you still don't know about them, here they are discussed below yet again. 
+As informed before, the contest is an IMO-type contest and hence follows nearly all the formats as IMO does. However if you still don't know about them, here they are discussed below yet again. 
 <ul align="left"><li> The contest will be held for two days with papers Day I and Day II. Each paper would consist three problems.</li>
 <li>  Each problem is worth 7 points. </li>
 <li> The paper will be subjective or that is you have to submit a clear proof of your solution while submitting the MMO team. Partial scores can be attained.</li>
