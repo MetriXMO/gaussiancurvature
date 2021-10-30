@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
+import { AttentionSeeker } from 'react-awesome-reveal';
 
 const Home = ({ darkMode }) => {
  function AlertDismissibleExample() {
@@ -29,6 +30,7 @@ const Home = ({ darkMode }) => {
         <div>
          
                 <Row>  <Particles />
+     <AttentionSeeker effect="pulse">
                     <Col lg={12} xs={12}>
      
                         <h2 className="display-3 hello" align="center">  MetriX Mathematical Olympiad  </h2>
@@ -42,6 +44,7 @@ const Home = ({ darkMode }) => {
                         </h2>
                  </Col>   
                 </Row>
+  </AttentionSeeker>
                 <Row>
 
 <div align="center" class="lead">  <Col lg={10}> 
