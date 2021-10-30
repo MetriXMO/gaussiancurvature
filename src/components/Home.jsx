@@ -51,7 +51,7 @@ const Home = ({ darkMode }) => {
 <h6 align="left">
   
                  MetriX Mathematical Olympiad as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is to be held online every year and is absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
-To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is a single stage competition. This contest can be participated by participants from any country. However this contest is given by respective individuals and not teams and MMO 2021 is going to be held soon. To explore more visit the other pages</h6> 
+To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is a single stage competition. This contest can be participated by participants from any country. However this contest is given by respective individuals and not teams and MMO 2021 is going to be held soon. To explore more information visit the other pages of the website.</h6> 
            
 </Col></div>
  
