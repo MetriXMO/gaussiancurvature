@@ -34,7 +34,7 @@ return (
 <ControlledTabs />
 
  
-const About = ({ darkMode }) => {
+const Team = ({ darkMode }) => {
 
   var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
