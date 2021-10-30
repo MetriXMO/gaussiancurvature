@@ -126,7 +126,7 @@ const About = ({ darkMode }) => {
                                 </Card.Body></Card>
             </Col>
  
-            </Row> &nbsp;   
+            </Row> &nbsp;   <Row>
   <Col lg={12}>
                <Card className="skill-nbcard">
                                 <Card.Body>
