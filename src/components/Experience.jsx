@@ -15,11 +15,21 @@ const Experience = ({ darkMode }) => {
             <Fade>
                 <Container>
                     <br></br>
-                    <h2 className="lead" align="center"><b>Sponsors</b></h2>
+                    <h2 className="lead" align="center"><b>Sponsors and Prizes</b></h2>
                     <br></br>
                   </Container>
             </Fade>
             <br></br>
+         
+            <br></br> <br></br>
+         
+            <br></br> <br></br>
+         
+            <br></br> <br></br>
+         
+            <br></br> <br></br>
+         
+            <br></br> <br></br>
          
             <br></br>
         </div>
