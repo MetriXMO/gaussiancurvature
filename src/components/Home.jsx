@@ -30,7 +30,7 @@ const Home = ({ darkMode }) => {
         <div>
          
                 <Row>  <Particles />
-                       <AttentionSeeker effect="pulse"> <Col lg={12} xs={12}>
+                    <Col lg={12} xs={12}>
      
                         <h2 className="display-3 hello" align="center">  MetriX Mathematical Olympiad  </h2>
                         <h2 className="lead" align="center">
@@ -41,7 +41,7 @@ const Home = ({ darkMode }) => {
                                     <br></br>
                             </span>
                         </h2>
-                 </Col>   </AttentionSeeker> 
+                 </Col>   
                 </Row>
                 <Row>
 
