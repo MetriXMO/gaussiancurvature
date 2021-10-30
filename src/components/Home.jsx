@@ -28,7 +28,7 @@ const Home = ({ darkMode }) => {
 
     return (
         <div>
-            <AttentionSeeker pulse>
+            <AttentionSeeker flash>
                 <Row>  <Particles />
                        <Col lg={12} xs={12}>
                         <h2 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h2>
