@@ -20,8 +20,9 @@ const Experience = ({ darkMode }) => {
                   </Container>
             </Fade>
             <br></br>
-        <h6 className="lead" align="center">
-         Prizes will be sponsored by Wolfram Alpha and other organsiation, We will inform you about the prizes very soon.</h6>
+<Container>
+        <div className="lead" align="center">
+      <h5>  <b> Prizes will be sponsored by Wolfram Alpha and other organisation, we will inform you about the prizes very soon.</b></h5> </div> </Container>
             <br></br> <br></br>
          
             <br></br> <br></br>
