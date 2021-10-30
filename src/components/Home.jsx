@@ -1,5 +1,4 @@
 import { useState, React } from 'react'
-import { AttentionSeeker } from 'react-awesome-reveal';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
