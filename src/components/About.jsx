@@ -167,7 +167,7 @@ As discussed before, the contest is an IMO-type contest and hence follows nearly
 <h6> Submission Procedure and Eligibilty</h6>
 <br></br>
 Everyone is allowed to give this contest. You can latex your solutions and make it in one PDF or you can submit handwritten solutions however remember to make your solution's neat and clean for us to undertand it clearly and you can submit to anyone of the above specified members of the group and direct message them on aops or use our offcial mail and gmail to us.
-<br/><br>
+<br></br>
   <h6> Rules of Gradation and Marking Scheme </h6>
 <ul align="left">
  <br></br>
@@ -179,7 +179,7 @@ Everyone is allowed to give this contest. You can latex your solutions and make 
 </li>
 
 <li>Its noted that there is no problem or no loss of points if you use : Barycentric co-ordinates, Complex Numbers, Moving points or Co-ordinate geometry in solving geometry problems, however 1 point will be deducted if the diagram for the geometry problem or wherever required is not drawn.</li>
-<br><br/>
+<br></br>
 <h6> Extra Marking Scheme </h6>
 
 <ul align="left">
