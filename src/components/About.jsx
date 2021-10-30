@@ -179,6 +179,7 @@ Everyone is allowed to give this contest. You can latex your solutions and make 
 </li>
 
 <li>Its noted that there is no problem or no loss of points if you use : Barycentric co-ordinates, Complex Numbers, Moving points or Co-ordinate geometry in solving geometry problems, however 1 point will be deducted if the diagram for the geometry problem or wherever required is not drawn.</li>
+</ul>
 <br></br>
 <h6> Extra Marking Scheme </h6>
 
@@ -194,8 +195,7 @@ Everyone is allowed to give this contest. You can latex your solutions and make 
 
 <li><b>Category 3</b> If you have at least 3 problems fully correct and one of your solutions is deemed the most elegant, you get an extra point.</li>
 
-</ul>
-</Card.Text>
+</ul> </Card.Text>
                                 </Card.Body></Card>
             </Col>
 </Row>
