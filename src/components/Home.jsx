@@ -17,7 +17,7 @@ const Home = ({ darkMode }) => {
       <Alert variant={darkMode ? "light" : "warning"} onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Announcement</Alert.Heading>
         <p>
-          MMO Registartion is going to start very soon, time to get thrilled and excited !
+          MMO Registration is going to start very soon, time to get thrilled and excited !
         </p>
       </Alert>
     );
@@ -47,7 +47,7 @@ const Home = ({ darkMode }) => {
 <div align="center" class="lead">  <Col lg={10}> 
 <h6 align="left">
   
-                 MetriX Mathematical Olympiad or  MMO as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is supposed to be held online mode every year and absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
+                 MetriX Mathematical Olympiad or  MMO as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is to be held online every year and is absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
 To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is an single stage competition. This contest can be participated by participants from any country. However this contest is given by respective individuals and not teams and MMO 2021 is going to be held soon. </h6> 
            
 </Col></div>
@@ -64,7 +64,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
                <Card className="skill-nbcard">
                                 <Card.Body>
                                     <Card.Title>MMO 2021</Card.Title>
-                                    <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed below, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
+                                    <Card.Text align="left"><hr/>Yes! MMO is back again this year and is expected to be held sometime in December. The rules and regulations of the contest are identical to those of last years.  The MMO 2021 team is listed in team's page and  we have fairly expanded from the base team of 6 peoples from 2020. Happy problem solving!
 <br></br>
 <br></br>
 <AlertDismissibleExample /> &nbsp; </Card.Text>
