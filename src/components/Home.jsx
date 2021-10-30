@@ -28,9 +28,9 @@ const Home = ({ darkMode }) => {
 
     return (
         <div>
-         
+            <AttentionSeeker effect="pulse">
                 <Row>  <Particles />
-     <AttentionSeeker effect="pulse">
+  
                     <Col lg={12} xs={12}>
      
                         <h2 className="display-3 hello" align="center">  MetriX Mathematical Olympiad  </h2>
@@ -44,7 +44,7 @@ const Home = ({ darkMode }) => {
                         </h2>
                  </Col>   
                 </Row>
-  </AttentionSeeker>
+ 
                 <Row>
 
 <div align="center" class="lead">  <Col lg={10}> 
@@ -57,7 +57,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
  
                </Row>
   
-
+ </AttentionSeeker>
          
 
             <br></br>
