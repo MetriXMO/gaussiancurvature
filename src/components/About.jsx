@@ -156,6 +156,7 @@ As informed before, the contest is an IMO-type contest and hence follows nearly 
                                     <Card.Title>MMO 2020</Card.Title>
                                     <Card.Text align="left"><hr/>MMO 2020 was held on November ofcourse in 2020 that is previous year online. It was mainly organised and held through the aops site, for previous year papers you can visit the past year contest's page. MMO 2021 team is however is quiet different from MMO 2020 since after that year our team has fairly expanded so that we can work flawlessly and easily.
 <br></br>
+
 <h6> Contest Rules </h6>
 <ul align="left">
 <li>  It will be two day contest of three problems on each day. </li>
@@ -167,7 +168,9 @@ As informed before, the contest is an IMO-type contest and hence follows nearly 
 <h6> Submission Procedure and Eligibilty</h6>
 <br></br>
 Everyone is allowed to give this contest. You can latex your solutions and make it in one PDF or you can submit handwritten solutions however remember to make your solution's neat and clean for us to undertand it clearly and you can submit to anyone of the above specified members of the group and direct message them on aops or use our offcial mail and gmail to us.
+
 <br></br>
+
   <h6> Rules of Gradation and Marking Scheme </h6>
 <ul align="left">
  <br></br>
@@ -189,11 +192,11 @@ Everyone is allowed to give this contest. You can latex your solutions and make 
 
 
 
-<li><b>Category 2</b>  If you are in the top 2 of scorers and you have greater than equal to 4 points on all problems, you get an extra point.</li>
+<li><b>Category 2:</b>  If you are in the top 2 of scorers and you have greater than equal to 4 points on all problems, you get an extra point.</li>
 
 
 
-<li><b>Category 3</b> If you have at least 3 problems fully correct and one of your solutions is deemed the most elegant, you get an extra point.</li>
+<li><b>Category 3:</b> If you have at least 3 problems fully correct and one of your solutions is deemed the most elegant, you get an extra point.</li>
 
 </ul> </Card.Text>
                                 </Card.Body></Card>
