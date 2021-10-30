@@ -1,6 +1,7 @@
 import { useState, React} from 'react'
 import { Fade } from "react-awesome-reveal";
 import './styles.css';
+import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
@@ -117,7 +118,7 @@ const About = ({ darkMode }) => {
           <Row>
             <Col lg={12} align='center'>
                <Card className="skill-nbcard">
-                                <Card.Body>
+                                <Card.Body> <Particles />
                                     <Card.Title>MMO 2021</Card.Title>
                                     <Card.Text align="left"><hr/>Yes! MMO is back in this year again and is expected to be held on soon in December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed in the team's page, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
 <br></br>
