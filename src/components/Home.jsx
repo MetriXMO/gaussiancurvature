@@ -30,8 +30,9 @@ const Home = ({ darkMode }) => {
         <div>
          
                 <Row>  <Particles />
-                       <Col lg={12} xs={12}>
-                        <h2 className="display-3 hello" align="center">   <AttentionSeeker effect="pulse">MetriX Mathematical Olympiad    </AttentionSeeker> </h2>
+                       <AttentionSeeker effect="pulse"> <Col lg={12} xs={12}>
+     
+                        <h2 className="display-3 hello" align="center">  MetriX Mathematical Olympiad  </h2>
                         <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
@@ -40,7 +41,7 @@ const Home = ({ darkMode }) => {
                                     <br></br>
                             </span>
                         </h2>
-                 </Col>
+                 </Col>   </AttentionSeeker> 
                 </Row>
                 <Row>
 
