@@ -130,8 +130,8 @@ As discussed before, the contest is an IMO-type contest and hence follows nearly
 <li> The paper will be subjective or that is you have to submit a clear proof of your solution while submitting the MMO team. Partial scores can be attained.</li>
 <li>  The contest is not a team contest, this should be given by respective individuals.</li>
 <li>  When you are done with your solution you can either latex them before submitting or you can submit handwritten solution which shall be accepted unless we find it hard to understand your handwriting.</li>
-<li> You shall submit you solution by either emailing here at the mail gaussiancurv180@gmail.com or direct DM to on AoPS to the one of the specified team members of MMO.</li></Card.Text>
-                             </ul>   </Card.Body></Card>
+<li> You shall submit you solution by either emailing here at the mail gaussiancurv180@gmail.com or direct DM to on AoPS to the one of the specified team members of MMO.</li>    </ul> </Card.Text>
+                            </Card.Body></Card>
             </Col>
  
             </Row> &nbsp;  
