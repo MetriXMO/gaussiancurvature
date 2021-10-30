@@ -65,7 +65,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
@@ -89,7 +89,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
@@ -112,7 +112,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
@@ -135,7 +135,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
@@ -158,7 +158,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
@@ -181,7 +181,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "dark"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
