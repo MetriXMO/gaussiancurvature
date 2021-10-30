@@ -1,7 +1,6 @@
 import { useState, React} from 'react'
 import { Fade } from "react-awesome-reveal";
 import './styles.css';
-import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
