@@ -104,13 +104,13 @@ const Team = ({ darkMode }) => {
                                 <Card.Body>
                                     <Card.Title>Team 2021</Card.Title>
                                     <Card.Text><ul align="left">
-                                            <li>MNJ2357</li>  <li>Mindstormer</li>  <li>TLP.39</li> <li>Aritra12</li><li>k12byda5h</li><li>CANBANKAN</li>
+                                            <li>MNJ2357, Korea</li>  <li>Mindstormer, Ukraine</li>  <li>TLP.39, Thailand</li> <li>Aritra12, India</li> <li>k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
 
        
 
- <li>EpicNumberTheory</li>
+ <li>EpicNumberTheory, India</li>
 
- <li>Orestis Lignos</li><li>Jelena</li>
+ <li>Orestis Lignos, Greece</li><li>Jelena, India</li> <li>sk_pi3145, USA</li> <li>Justin Lee, USA</li>
 
 
 
@@ -133,15 +133,17 @@ const Team = ({ darkMode }) => {
                                               
 
  
-<li>Starchan</li>
- <li>MathLuis</li>
-<li>Squareman</li>
- <li>GGHX</li>
- <li>Jupiter_is_Big</li>
- <li>oVlad</li>
-<li>phoenixfire</li>
-<li>lneis1</li>
- <li>Awesome_Guy</li>
+<li>Starchan, India</li>
+ <li>MathLuis, Bolivia</li>
+<li>Squareman, USA</li>
+ <li>GGHX, Singapore</li>
+ <li>Jupiter_is_Big, India</li>
+ <li>oVlad, Romania</li>
+<li>phoenixfire, India</li>
+<li>lneis1, India</li>
+ <li>Awesome_Guy, USA</li>
+<li>Anirrudha Sharma, India</li> 
+<li> Joke_Him, Unknown </li>
 
 </ul></Card.Text>
 </Card.Body></Card>
