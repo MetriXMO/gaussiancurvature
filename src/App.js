@@ -39,7 +39,7 @@ function App() {
                     <Nav.Link href="https://metrixmath-oly.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors</h5></Nav.Link>
+                      <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
