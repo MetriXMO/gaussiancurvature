@@ -28,10 +28,10 @@ const Home = ({ darkMode }) => {
 
     return (
         <div>
-            <AttentionSeeker effect="pulse">
+         
                 <Row>  <Particles />
                        <Col lg={12} xs={12}>
-                        <h2 className="display-3 hello" align="center">MetriX Mathematical Olympiad</h2>
+                        <h2 className="display-3 hello" align="center">   <AttentionSeeker effect="pulse">MetriX Mathematical Olympiad    </AttentionSeeker> </h2>
                         <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
@@ -55,7 +55,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
                </Row>
   
 
-            </AttentionSeeker>
+         
 
             <br></br>
             <hr></hr>
