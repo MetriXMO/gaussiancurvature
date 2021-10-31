@@ -41,7 +41,7 @@ return (
       <Alert variant="warning" onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Announcement</Alert.Heading>
         <p>
-          MMO Registartion is going to start very soon, time to get thrilled and excited !
+         MMO registration has been started, for aops users the aops post is  <a href="https://artofproblemsolving.com/community/c1209312h2451488s1_gaussian_curvature">here</a> and for non aops users you can submit your solutions through our gmail. The contest will start on 14th December, 2021 and end on 21st December.
         </p>
       </Alert>
     );
