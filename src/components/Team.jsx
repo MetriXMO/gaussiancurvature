@@ -97,20 +97,23 @@ const Team = ({ darkMode }) => {
       <br></br>
       <Fade>
         <Container align='center'>
+     <br></br>
+                    <h2 className="lead" align="center"><b>Team</b></h2>
+                    <br></br>
           <Row>    
-
+<h4><
                                    <Col lg={6} align="center">
-               <Card className="skill-nbcard">
+               <Card className="nbcard">
                                 <Card.Body>
-                                    <Card.Title>Team 2021</Card.Title>
+                                   
                                     <Card.Text><ul align="left">
-                                            <li>MNJ2357, Korea</li>  <li>Mindstormer, Ukraine</li>  <li>TLP.39, Thailand</li> <li>Aritra12, India</li> <li>k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
+                                       <b>     <li>MNJ2357, Korea</li>  <li>Mindstormer, Ukraine</li>  <li>TLP.39, Thailand</li> <li>Aritra12, India</li> <li>k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
 
        
 
  <li>EpicNumberTheory, India</li>
 
- <li>Orestis Lignos, Greece</li><li>Jelena, India</li> <li>sk_pi3145, USA</li> <li>Justin Lee, USA</li>
+ <li>Orestis Lignos, Greece</li><li>Jelena, India</li> <li>sk_pi3145, USA</li> <li>Justin Lee, USA</li> </b>
 
 
 
@@ -126,12 +129,12 @@ const Team = ({ darkMode }) => {
                                 </Card.Body></Card>
   </Col>
                                    <Col lg={6} align="center">
-               <Card className="skill-nbcard">
+               <Card className="nbcard">
                                 <Card.Body>
-                                    <Card.Title>Team 2021</Card.Title>
+                                    
                                     <Card.Text><ul align="left">
                                               
-
+<b>
  
 <li>Starchan, India</li>
  <li>MathLuis, Bolivia</li>
@@ -143,7 +146,7 @@ const Team = ({ darkMode }) => {
 <li>lneis1, India</li>
  <li>Awesome_Guy, USA</li>
 <li>Anirrudha Sharma, India</li> 
-<li> Joke_Him, Unknown </li>
+<li> Joke_Him, Unknown </li> </b>
 
 </ul></Card.Text>
 </Card.Body></Card>
