@@ -139,6 +139,7 @@ strong, .with{
     font-weight: bold;
     font-size: 30px;
     vertical-align: middle;
+  color: var(--aritra);
 }
 .skill-nbcard{
     color: var(--new);
