@@ -44,7 +44,7 @@ const Home = ({ darkMode }) => {
                         </h2>
                  </Col>   
                 </Row>
- <br><br/>
+
                 <Row>
 
 <div align="center" class="lead">  <Col lg={10}> 
