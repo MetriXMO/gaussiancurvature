@@ -39,7 +39,7 @@ const Home = ({ darkMode }) => {
                                 class="txt-rotate"
                                 data-period="2000"
                                 data-rotate='[ " MetriX Mathematical Olympiad", " Is An IMO-Type Contest", " Held Online", "Every Year" ]'>
-                                 <br><br/>
+                                 <br></br>
                             </span>
                         </h2>
                  </Col>   
