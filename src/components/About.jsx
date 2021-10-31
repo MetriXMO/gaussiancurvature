@@ -32,13 +32,13 @@ return (
 );
 }
 <ControlledTabs />
-
+const About = ({ darkMode }) => {
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
 
   if (show) {
     return (
-      <Alert variant="warning" onClose={() => setShow(false)} dismissible>
+      <Alert variant={darkMode ? "light" : "warning"} onClose={() => setShow(false)} dismissible>
         <Alert.Heading>Announcement</Alert.Heading>
         <p>
          MMO registration has been started, for aops users the aops post is  <a href="https://artofproblemsolving.com/community/c1209312h2451488s1_gaussian_curvature">here</a> and for non aops users you can submit your solutions through our gmail. The contest will start on 14th December, 2021 and end on 21st December.
@@ -49,7 +49,7 @@ return (
   return <Button variant="dark" onClick={() => setShow(true)}>Click To Know About Latest Announcements</Button>;
 }
 
-const About = ({ darkMode }) => {
+
 
   var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
