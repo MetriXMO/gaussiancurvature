@@ -101,7 +101,7 @@ const Team = ({ darkMode }) => {
                     <h2 className="lead" align="center"><b>Team</b></h2>
                     <br></br>
           <Row>    
-<h4><
+
                                    <Col lg={6} align="center">
                <Card className="nbcard">
                                 <Card.Body>
