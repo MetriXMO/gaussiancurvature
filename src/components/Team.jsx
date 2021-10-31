@@ -137,6 +137,7 @@ const Team = ({ darkMode }) => {
 <b>
  
 <li>Starchan, India</li>
+<li> i3435, USA </li> 
  <li>MathLuis, Bolivia</li>
 <li>Squareman, USA</li>
  <li>GGHX, Singapore</li>
@@ -146,7 +147,7 @@ const Team = ({ darkMode }) => {
 <li>lneis1, India</li>
  <li>Awesome_Guy, USA</li>
 <li>Anirrudha Sharma, India</li> 
-<li> Joke_Him, Unknown </li> </b>
+</b>
 
 </ul></Card.Text>
 </Card.Body></Card>
