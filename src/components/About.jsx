@@ -124,15 +124,17 @@ const About = ({ darkMode }) => {
 <br></br>
 <AlertDismissibleExample /> <br></br>
 
-<h6>Registration</h6>
+<h5><b>Registration</b></h5>
 <br></br>
 There is no specific place to register, everyone can give the contest and don't need to register for it, you can just attempt the test when it is out. However it's adviced if you are on aops, leave a sign up message so that we get a estimation of how many participants are participating.
 <br></br>
-<h6>Schedule</h6>
+<br></br>
+<h5><b>Schedule</b></h5>
 <br></br>
 The day 1 and day 2 papers will be released on 14th December and 15th December with their deadline of submission being 20th and 21st December. The results are expected to be out by 25th Decmeber.
 <br></br>
-<h6>Format</h6>
+
+<h5><b>Format</b></h5>
 As informed before, the contest is an IMO-type contest and hence follows nearly all the formats as IMO does. However if you still don't know about them, here they are discussed below yet again. 
 <ul align="left"><li> The contest will be held for two days with papers Day I and Day II. Each paper would consist three problems.</li>
 <li>  Each problem is worth 7 points. </li>
