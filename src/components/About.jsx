@@ -133,7 +133,7 @@ There is no specific place to register, everyone can give the contest and don't 
 <br></br>
 The day 1 and day 2 papers will be released on 14th December and 15th December with their deadline of submission being 20th and 21st December. The results are expected to be out by 25th Decmeber.
 <br></br>
-
+<br></br>
 <h5><b>Format</b></h5>
 As informed before, the contest is an IMO-type contest and hence follows nearly all the formats as IMO does. However if you still don't know about them, here they are discussed below yet again. 
 <ul align="left"><li> The contest will be held for two days with papers Day I and Day II. Each paper would consist three problems.</li>
