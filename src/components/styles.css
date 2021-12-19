@@ -1,13 +1,13 @@
 [data-theme="dark"] {
   
-     --bg-color: #fff3cd;
-    --text-color: #61dafb ;
-    --page-color: #14deb9 ;
+     --bg-color: #ffffff;
+    --text-color: #08bd80;
+    --page-color: #fcfcfc ;
     --hello: #ffffff;
     --description: #ffffff;
     --name: #fff3cd;
     --border-width: 1px;
-    --aritra:#fff3cd;
+    --aritra:#ffffff;
     --oreo:#00000;
   --new: #000000;
 }
