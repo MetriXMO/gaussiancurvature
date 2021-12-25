@@ -62,7 +62,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
 
             <br></br>
            
-      <Container align='center'> <Row>
+      <Container align='left'> <Row>
             <Col lg={12} align='left'>
                <Card className="skill-nbcard">
                                 <Card.Body>
