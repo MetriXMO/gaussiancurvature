@@ -47,7 +47,7 @@ const Home = ({ darkMode }) => {
 
                 <Row>
 
-<div align="left" class="lead"  >  <Col lg={10}> 
+<div align="center" class="lead"  >  <Col lg={10}> 
 <h6 align="left" >
   
                  MetriX Mathematical Olympiad as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is to be held online every year and is absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
@@ -63,7 +63,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
             <br></br>
            
       <Container align='left'> <Row>
-            <Col lg={17} align='left'>
+            <Col lg={10} align='left'>
                <Card className="skill-nbcard">
                 <Card.Header><div class={darkMode ? "lead" : "text"}>About Us</div></Card.Header>
                                 <Card.Body>
