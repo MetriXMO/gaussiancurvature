@@ -47,7 +47,7 @@ const Home = ({ darkMode }) => {
 
                 <Row>
 
-<div align="center" class="lead"  >  <Col lg={10}> 
+<div align="left" class="lead"  >  <Col lg={10}> 
 <h6 align="left" >
   
                  MetriX Mathematical Olympiad as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is to be held online every year and is absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
