@@ -65,7 +65,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
       <Container align='left'> <Row>
             <Col lg={15} align='left'>
                <Card className="skill-nbcard">
-                <Card.Header>Featured</Card.Header>
+                <Card.Header><div class={darkMode ? "lead" : "text"}>About Us</div></Card.Header>
                                 <Card.Body>
                                     <Card.Title><div class={darkMode ? "lead" : "text"}>About Us</div></Card.Title>
                                     <Card.Text align="left">Yes! MMO is back again this year and is  to be held on 14th December. The rules and regulations of the contest are identical to those of last years.  The MMO 2021 team is listed in team's page and  we have fairly expanded from the base team of 6 peoples from the year 2020. Happy problem solving!
