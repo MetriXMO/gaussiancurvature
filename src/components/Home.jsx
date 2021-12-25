@@ -66,7 +66,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
             <Col lg={12} align='center'>
                <Card className="skill-nbcard">
                                 <Card.Body>
-                                    <Card.Title><div class={darkMode ? "lead" : "oreo"}>MMO 2021</div></Card.Title>
+                                    <Card.Title><div class={darkMode ? "lead" : "text"}>MMO 2021</div></Card.Title>
                                     <Card.Text align="left">Yes! MMO is back again this year and is  to be held on 14th December. The rules and regulations of the contest are identical to those of last years.  The MMO 2021 team is listed in team's page and  we have fairly expanded from the base team of 6 peoples from the year 2020. Happy problem solving!
 <br></br>
 <br></br>
