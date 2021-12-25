@@ -43,7 +43,7 @@ function App() {
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "primary" : "dark"}>
-                    {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
+                    {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
           </Navbar>
