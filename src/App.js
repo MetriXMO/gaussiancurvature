@@ -42,7 +42,7 @@ function App() {
                       <Nav.Link href="https://metrixmath-oly.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
                     <Nav.Link href="https://metrixmath-oly.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "primary"}>
+                <Button onClick={toggleDarkMode} variant={darkMode ? "primary" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="dark" size="lg" icon={faAdjust} spin/>
                 </Button>
             </Navbar.Collapse>
