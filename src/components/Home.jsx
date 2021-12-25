@@ -61,7 +61,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
          
 
             <br></br>
-            <hr></hr>
+           
       <Container align='center'> <Row>
             <Col lg={12} align='center'>
                <Card className="skill-nbcard">
