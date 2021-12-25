@@ -33,7 +33,7 @@ const Home = ({ darkMode }) => {
   
                     <Col lg={12} xs={12}>
      
-                        <h2 className="display-3 hello" align="center">  MetriX Mathematical Olympiad  </h2>
+                        <h2 className="display-3 hello" align="center">  Gaussian Curvature  </h2>
                         <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
