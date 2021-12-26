@@ -42,7 +42,7 @@ function ControlledTabs() {
    Somehow
   </Tab>
 </Tabs>
-
+      render(<ControlledTabs />);  
 
 const Skills = ({ darkMode }) => {
     return (
@@ -85,7 +85,7 @@ const Skills = ({ darkMode }) => {
 
                     <br></br>
 <AlertDismissibleExample />
-       render(<ControlledTabs />);   
+  
                 </Container>
             </Slide>
         </div>
