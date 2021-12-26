@@ -85,7 +85,7 @@ const Skills = ({ darkMode }) => {
 
                     <br></br>
 <AlertDismissibleExample />
-         <ControlledTabs />    
+       render(<ControlledTabs />);   
                 </Container>
             </Slide>
         </div>
