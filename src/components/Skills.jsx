@@ -28,9 +28,10 @@ import Tabs from 'react-bootstrap/Tabs'
   return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcements!</Button>;
 }
 
-
+function ControlledTabs() {
+  const [key, setKey] = useState('home');
  
-<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+<Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
   <Tab eventKey="home" title="Home">
     FujikoFuji
   </Tab>
@@ -84,7 +85,7 @@ const Skills = ({ darkMode }) => {
 
                     <br></br>
 <AlertDismissibleExample />
-                
+         <ControlledTabs />    
                 </Container>
             </Slide>
         </div>
