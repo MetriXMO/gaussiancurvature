@@ -18,14 +18,14 @@ import Alert from 'react-bootstrap/Alert';
   if (show) {
     return (
       <Alert variant="warning" onClose={() => setShow(false)} dismissible>
-        <Alert.Heading>Announcement</Alert.Heading>
+        <Alert.Heading></Alert.Heading>
         <p>
-          MMO Registartion is going to start very soon, time to get thrilled and excited !
+         
         </p>
       </Alert>
     );
   }
-  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcemnts!</Button>;
+  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcements!</Button>;
 }
 
 
@@ -49,7 +49,7 @@ const Skills = ({ darkMode }) => {
                                 <Card.Body>
                                                <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br/><br/>
                                     <Card.Text align="left">
-                                                      <hr/>MetriX Mathematical Olympiad held on 2020 Day 1 paper <br/>
+                                                      MetriX Mathematical Olympiad held on 2020 Day 1 paper <br/>
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "dark" : "dark"} className="sbtn" align="left">Download</Button>
                                         </a>&nbsp;</Card.Text>
