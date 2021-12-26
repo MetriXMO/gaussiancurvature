@@ -115,7 +115,7 @@ const About = ({ darkMode }) => {
       <Fade>
         <Container align='center'>
           <Row>
-            <Col lg={12} align='center'>
+            <Col lg={12} align='left'>
                <Card className="skill-nbcard">
                                 <Card.Body> 
                                     <Card.Header><div class={darkMode ? "lead" : "text-light"}>FAQS</div></Card.Header>
