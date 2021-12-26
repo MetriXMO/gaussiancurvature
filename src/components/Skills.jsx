@@ -59,8 +59,9 @@ const Skills = ({ darkMode }) => {
                          
                                 <Card.Body >
                                        <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/><br/><br/>
-                                      <Card.Text align="left"><h4>MMO 2020 Day 2</h4>
-                                                <hr/>MetriX Mathematical Olympiad held on 2020 Day 2 paper  <br/>
+                                        <Card.Header><div class={darkMode ? "lead" : "text-light"}>MMO 2021 Day 2</div></Card.Header>
+                                      <Card.Text align="left">
+                                              MetriX Mathematical Olympiad held on 2020 Day 2 paper  <br/>
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%202.pdf" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "dark" : "dark"} className="sbtn" align="left">Download</Button>
                                         </a>&nbsp;</Card.Text>
