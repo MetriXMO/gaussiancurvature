@@ -39,9 +39,9 @@ const About = ({ darkMode }) => {
   if (show) {
     return (
       <Alert variant={darkMode ? "light" : "warning"} onClose={() => setShow(false)} dismissible>
-        <Alert.Heading>Announcement</Alert.Heading>
+        <Alert.Heading></Alert.Heading>
         <p>
-         Please note this our new website.
+     
         </p>
       </Alert>
     );
