@@ -10,7 +10,6 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
-import Tabs from 'react-bootstrap/Tabs'
 
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
@@ -28,21 +27,6 @@ import Tabs from 'react-bootstrap/Tabs'
   return <Button variant="dark" onClick={() => setShow(true)}>Click To Know The Latest Announcements!</Button>;
 }
 
-function ControlledTabs() {
-  const [key, setKey] = useState('home');
- 
-<Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
-  <Tab eventKey="home" title="Home">
-    FujikoFuji
-  </Tab>
-  <Tab eventKey="profile" title="Profile">
-  Lmaoloji
-  </Tab>
-  <Tab eventKey="contact" title="Contact" disabled>
-   Somehow
-  </Tab>
-</Tabs>
-      render(<ControlledTabs />);  
 
 const Skills = ({ darkMode }) => {
     return (
