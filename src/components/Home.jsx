@@ -33,7 +33,7 @@ const Home = ({ darkMode }) => {
   
                     <Col lg={12} xs={12}>
      
-                        <h2 className="display-3 hello" align="center">  Gaussian Curvature  </h2>
+                        <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
                         <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
@@ -50,8 +50,9 @@ const Home = ({ darkMode }) => {
 <div align="center" class="text-secondary" >  <Col lg={9}> 
 <div align="left" >
   
-                 MetriX Mathematical Olympiad as the name indicates is a mathematical olympiad which inherits the difficulty near to International Mathematical Olympiad or IMO. The exam is to be held online every year and is absolutely free for all so that everyone could enjoy the competition and explore the Olympiad flavour.
-To its  exception unlike IMO, this exam does not have any pre stages so as to attend this contest and is a single stage competition. This contest can be participated by participants from any country. However this contest is given by respective individuals and not teams and MMO 2021 is going to be held on 14th Dec. To explore more information visit the other pages of the website.</div> 
+             Gaussian Curvature is a non profit mathematics organization managed by some mathematics enthusiast members which aim to improve the quality of education specially for mathematics.
+It provides online contests which include practise for olympiads and contests ranging from AMC to  IMO and other regional and national contests.
+We also provide mathematical handouts to give some precise details about important things and are planning to do many more projects underneath. </div> 
            
 </Col></div>
  
@@ -68,7 +69,7 @@ To its  exception unlike IMO, this exam does not have any pre stages so as to at
                 <Card.Header><div class={darkMode ? "lead" : "text-light"}>About Us</div></Card.Header>
                                 <Card.Body>
                                    
-                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>MMO is back again this year and is  to be held on 14th December. The rules and regulations of the contest are identical to those of last years.  The MMO 2021 team is listed in team's page and  we have fairly expanded from the base team of 6 peoples from the year 2020. Happy problem solving!
+                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}We are a group of Mathematical Olympiad students who admire Mathematics to a great extent. We wish to spread the joy of solving and recognising the non-routine level of mathematics and encourage all math lovers who are yet to discover or already discovered it to do so too. We also help sections of society that try to learn mathematics who have a great thirst for knowledge for mathematics and education.
 <br></br>
 <br></br>
 <AlertDismissibleExample /> &nbsp; </Card.Text>
