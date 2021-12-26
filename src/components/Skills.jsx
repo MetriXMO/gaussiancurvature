@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
-
+import Tabs from 'react-bootstrap/Tabs'
 
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
@@ -30,7 +30,17 @@ import Alert from 'react-bootstrap/Alert';
 
 
  
-
+<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+  <Tab eventKey="home" title="Home">
+    FujikoFuji
+  </Tab>
+  <Tab eventKey="profile" title="Profile">
+  Lmaoloji
+  </Tab>
+  <Tab eventKey="contact" title="Contact" disabled>
+   Somehow
+  </Tab>
+</Tabs>
 
 
 const Skills = ({ darkMode }) => {
