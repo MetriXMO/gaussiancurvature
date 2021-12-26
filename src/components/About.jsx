@@ -146,9 +146,9 @@ const About = ({ darkMode }) => {
 <Row>
   <Col lg={12}>
                <Card className="skill-nbcard">
-                                <Card.Body>
+                             
                                    <Card.Header><div class={darkMode ? "lead" : "text-light"}>FAQS</div></Card.Header>
-                                    <Card.Text align="left">
+                                    <Card.Body>   <Card.Text align="left">
 <br></br>
 
 </Card.Text>
