@@ -7,6 +7,7 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import { AttentionSeeker } from 'react-awesome-reveal';
+import { MagicalButton, Flex } from './styles';
 
 const Home = ({ darkMode }) => {
  function AlertDismissibleExample() {
@@ -71,7 +72,18 @@ We also provide mathematical handouts to give some precise details about importa
                                    
                                     <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>We are a group of Mathematical Olympiad students who admire Mathematics to a great extent. We wish to spread the joy of solving and recognising the non-routine level of mathematics and encourage all math lovers who are yet to discover or already discovered it to do so too. We also help sections of society that try to learn mathematics who have a great thirst for knowledge for mathematics and education.
 <br></br>
-<br></br>   
+<br></br>   <Flex>
+        <MagicalButton
+          href="https://docs.google.com/document/d/1yxCORtBMNxj_ukgOxoYQfRu3HTUqjtNXwcMajzcftF8"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View resume
+        </MagicalButton>
+        <MagicalButton>
+          Get In Touch
+        </MagicalButton>
+      </Flex>
 <AlertDismissibleExample /> &nbsp; </Card.Text>
                                 </Card.Body></Card>
             </Col>
