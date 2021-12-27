@@ -7,7 +7,7 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import { AttentionSeeker } from 'react-awesome-reveal';
-mport { MagicalButton, Flex } from './stylee'
+import { MagicalButton, Flex } from './stylee'
 
 const Home = ({ darkMode }) => {
  function AlertDismissibleExample() {
