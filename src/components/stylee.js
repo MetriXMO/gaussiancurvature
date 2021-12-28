@@ -50,3 +50,6 @@ export const Flex = styled.div`
   @media (max-width: 380px) {
     flex-direction: column;
   }
+  `
+  
+  
