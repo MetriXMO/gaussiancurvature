@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
-
+import { MagicalButton } from './stylee';
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
                   <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers<MagicalButton></Nav.Link>
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
                 </Nav>
