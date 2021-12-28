@@ -65,9 +65,9 @@ function App() {
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+                <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
  <div id="experience">
@@ -89,9 +89,9 @@ function App() {
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+                <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
             <div id="about">
@@ -112,9 +112,9 @@ function App() {
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+                <<MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
  <div id="skills">
@@ -135,9 +135,9 @@ function App() {
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+               <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
  <div id="team">
@@ -158,9 +158,9 @@ function App() {
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+                <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
  <div id="contact">
@@ -181,9 +181,9 @@ function App() {
                       <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+                <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
  <div id="about">
