@@ -58,7 +58,8 @@
     ],
  
   }
-}
-"resolutions": {
+  "resolutions": {
     "styled-components": "^5"
   }
+}
+
