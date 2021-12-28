@@ -9,7 +9,6 @@ import { Home, About, Skills, Experience, Contact, Footer, Team } from './compon
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
