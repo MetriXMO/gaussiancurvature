@@ -35,16 +35,16 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
-                <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
+                <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </Button>
+                </MagicalButton>
             </Navbar.Collapse>
           </Navbar>
           <div id="home">
@@ -58,12 +58,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
@@ -82,12 +82,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                 <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                   <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
@@ -105,12 +105,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
@@ -128,12 +128,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
@@ -151,12 +151,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                 <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
@@ -174,12 +174,12 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><h5>About</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><h5>Team</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><h5>Past Year Papers</h5></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><h5>Sponsors and Prizes</h5></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><h5>Contact</h5></Nav.Link>
+                   <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
+                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "light" : "dark"}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
