@@ -49,5 +49,5 @@ export const Flex = styled.div`
   align-items: center;
   @media (max-width: 380px) {
     flex-direction: column;
-  }
-`<script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>;
+  };
+`<script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
