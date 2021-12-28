@@ -74,16 +74,15 @@ We also provide mathematical handouts to give some precise details about importa
 <br></br>
 <br></br>   <Flex>
         <MagicalButton
-          href="https://docs.google.com/document/d/1yxCORtBMNxj_ukgOxoYQfRu3HTUqjtNXwcMajzcftF8"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          View resume
+          href=""
+       >
+          View in Details
         </MagicalButton>
         <MagicalButton>
           Get In Touch
         </MagicalButton>
-      </Flex>
+      </Flex><br></br>
+<br></br>
 <AlertDismissibleExample /> &nbsp; </Card.Text>
                                 </Card.Body></Card>
             </Col>
