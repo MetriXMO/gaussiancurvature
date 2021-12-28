@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
-
+import { MagicalButton } from './stylee';
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
 
@@ -40,7 +40,7 @@ const Skills = ({ darkMode }) => {
                     <Row>
                       <Col lg={6}>
                      <Card className="skill-nbcard">
-                      <Card.Header><div class={darkMode ? "lead" : "text-light"}>MMO 2021 Day 1</div></Card.Header>
+                     <MagicalButton> <Card.Header><div class={darkMode ? "lead" : "text-light"}>MMO 2021 Day 1</div></Card.Header></MagicalButton>
                                 <Card.Body>
                                                <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br/><br/>
                                     <Card.Text align="left">
