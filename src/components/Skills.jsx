@@ -42,7 +42,7 @@ const Skills = ({ darkMode }) => {
                      <Card className="skill-nbcard">
                      <Card.Header><div class={darkMode ? "lead" : "text-light"}>MMO 2021 Day 1</div></Card.Header>
                                 <Card.Body>
-                                               <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br/><br/>
+                                               <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br><br/>
                                     <Card.Text align="left">
                                                       MetriX Mathematical Olympiad held on 2020 Day 1 paper <br/>
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> <br><br/>
@@ -54,7 +54,7 @@ const Skills = ({ darkMode }) => {
                             <Card className="skill-nbcard">
                            <Card.Header><div class={darkMode ? "lead" : "text-light"}>MMO 2020 Day 2</div></Card.Header>
                                 <Card.Body >
-                                       <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/><br/><br/>
+                                       <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/><br><br/>
                                       
                                       <Card.Text align="left">
                                               MetriX Mathematical Olympiad held on 2020 Day 2 paper  <br/>
