@@ -44,11 +44,12 @@ const Skills = ({ darkMode }) => {
                                 <Card.Body>
                                                <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br/><br/>
                                     <Card.Text align="left">
-                                                    <a   href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> 
-                                            <MagicalButton  align="left">Download</MagicalButton> 
-                                        </a>&nbsp;   <br/></Card.Text>
+                                                   MMO 2020 Day 1
+                                        <br/></Card.Text>
  
                                 </Card.Body>
+ <Card.Header> <a   href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> 
+                                            <MagicalButton  align="left">Download</MagicalButton>  </a>  </Card.Header>
                             </Card></Col>
  <Col lg={6}>
                             <Card className="skill-nbcard">
