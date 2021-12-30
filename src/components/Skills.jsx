@@ -45,8 +45,8 @@ const Skills = ({ darkMode }) => {
                                                <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br/><br/>
                                     <Card.Text align="left">
                                                       MetriX Mathematical Olympiad held on 2020 Day 1 paper <br/></Card.Text>
- <Card.Header>  <a  target="_blank" rel="noreferrer noopener"> 
-                                            <MagicalButton href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf"  align="left">Download</MagicalButton> 
+ <Card.Header>  <a   href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> 
+                                            <MagicalButton  align="left">Download</MagicalButton> 
                                         </a>&nbsp; </Card.Header>
                                 </Card.Body>
                             </Card></Col>
