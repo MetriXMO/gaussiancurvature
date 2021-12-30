@@ -47,7 +47,7 @@ const Skills = ({ darkMode }) => {
                                                       MetriX Mathematical Olympiad held on 2020 Day 1 paper <br/></Card.Text>
  <Card.Header>  <a  target="_blank" rel="noreferrer noopener"> 
                                             <MagicalButton href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf"  align="left">Download</MagicalButton> 
-                                        </a>&nbsp; <Card.Header>
+                                        </a>&nbsp; </Card.Header>
                                 </Card.Body>
                             </Card></Col>
  <Col lg={6}>
