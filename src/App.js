@@ -49,7 +49,7 @@ function App() {
     <Switch>
         <Route exact path="/" >
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname"> <MagicalButton>  <DropdownItem color="lightBlue" ripple="light">
+            <Navbar.Brand href="#home" className="navname">   <DropdownItem color="lightBlue" ripple="light">
                 Action
             </DropdownItem>
             <DropdownLink
