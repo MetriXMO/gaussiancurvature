@@ -51,7 +51,7 @@ We also provide mathematical handouts to give some precise details about importa
       <Container align='left'> <Row>
             <Col lg={15} align='left'>
           <Card className="skill-nbcard">
-                <Card.Header><div class={darkMode ? "lead" : "text-light"}>About Us</div></Card.Header>
+                <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
                                    
                                     <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>We are a group of Mathematical Olympiad students who admire Mathematics to a great extent. We wish to spread the joy of solving and recognising the non-routine level of mathematics and encourage all math lovers who are yet to discover or already discovered it to do so too. We also help sections of society that try to learn mathematics who have a great thirst for knowledge for mathematics and education.
