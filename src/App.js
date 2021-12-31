@@ -18,7 +18,11 @@ import './components/styles.css'
 import { MagicalButton } from './stylee';
 
 
-export default function Dropdown() {
+
+
+function App() {
+
+  function Dropdown() {
     return (
         <Dropdown
             color="lightBlue"
@@ -32,10 +36,6 @@ export default function Dropdown() {
         >
 )
 }
-
-function App() {
-
-  
       
  
    
