@@ -35,10 +35,9 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                   <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About Us</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
-                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Past Year Papers</MagicalButton></Nav.Link>
-                      <Nav.Link href="https://gcurvature.vercel.app/sponsors" className="link"><MagicalButton>Sponsors and Prizes</MagicalButton></Nav.Link>
+                    <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Contests</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link"><MagicalButton>Contact</MagicalButton></Nav.Link>
                 </Nav>
                 <MagicalButton onClick={toggleDarkMode}>
