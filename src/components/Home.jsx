@@ -66,7 +66,7 @@ We also provide mathematical handouts to give some precise details about importa
            
       <Container align='left'> <Row>
             <Col lg={15} align='left'>
-               <Card className="skill-nbcard">
+            <MagicalButton href="">   <Card className="skill-nbcard">
                 <Card.Header><div class={darkMode ? "lead" : "text-light"}>About Us</div></Card.Header>
                                 <Card.Body>
                                    
@@ -84,7 +84,7 @@ We also provide mathematical handouts to give some precise details about importa
       </Flex><br></br>
 <br></br>
 <AlertDismissibleExample /> &nbsp; </Card.Text>
-                                </Card.Body></Card>
+                                </Card.Body></Card> </MagicalButton>
             </Col>
  
             </Row>    </Container> &nbsp;   
