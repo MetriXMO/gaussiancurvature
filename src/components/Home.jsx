@@ -65,9 +65,7 @@ We also provide mathematical handouts to give some precise details about importa
         <MagicalButton>
           Get In Touch
         </MagicalButton>
-      </Flex><br></br>
-<br></br>
-&nbsp; </Card.Text>
+      </Flex> </Card.Text>
                                 </Card.Body></Card>
             </Col>
  
