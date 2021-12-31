@@ -3,28 +3,13 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
-import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import { AttentionSeeker } from 'react-awesome-reveal';
 import { MagicalButton, Flex } from './stylee';
 
 const Home = ({ darkMode }) => {
- function AlertDismissibleExample() {
-  const [show, setShow] = useState(true);
-
-  if (show) {
-    return (
-      <Alert variant={darkMode ? "light" : "warning"} onClose={() => setShow(false)} dismissible>
-        <Alert.Heading>Announcement</Alert.Heading>
-        <p>
-        Here is  our <a href="https://discord.gg/vxmpsSSzuz">Discord Server</a>.
-        </p>
-      </Alert>
-    );
-  }
-  return <Button variant="dark" onClick={() => setShow(true)}>Click To Know About Latest Announcements</Button>;
-}
+ 
 
 
     return (
@@ -83,7 +68,7 @@ We also provide mathematical handouts to give some precise details about importa
         </MagicalButton>
       </Flex><br></br>
 <br></br>
-<AlertDismissibleExample /> &nbsp; </Card.Text>
+&nbsp; </Card.Text>
                                 </Card.Body></Card>
             </Col>
  
