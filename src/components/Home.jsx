@@ -3,7 +3,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import { AttentionSeeker } from 'react-awesome-reveal';
 import { MagicalButton, Flex } from './stylee';
