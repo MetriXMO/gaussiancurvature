@@ -63,7 +63,7 @@ function App() {
             <DropdownItem color="lightBlue" ripple="light">
                 Something else
             </DropdownItem>
-        </Dropdown>GC</MagicalButton></Navbar.Brand>
+        </Dropdown></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
