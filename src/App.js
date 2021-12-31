@@ -34,6 +34,7 @@ function App() {
             block={false}
             ripple="light"
         >
+ </Dropdown>
 )
 }
       
@@ -67,7 +68,7 @@ function App() {
             <DropdownItem color="lightBlue" ripple="light">
                 Something else
             </DropdownItem>
-        </Dropdown></MagicalButton></Nav.Link>
+       </MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About Us</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Contests</MagicalButton></Nav.Link>
