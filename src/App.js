@@ -30,7 +30,7 @@ function App() {
     <Switch>
         <Route exact path="/" >
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname"> <h6 className="lead">GC</h6></Navbar.Brand>
+            <Navbar.Brand href="#home" className="navname"> <MagicalButton>GC</MagicalButton></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
