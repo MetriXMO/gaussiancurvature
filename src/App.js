@@ -4,6 +4,9 @@ import helloLight from '../src/oeye.png';
 import helloDark from '../src/oeye.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Dropdown from "@material-tailwind/react/Dropdown"
+import DropdownItem from "@material-tailwind/react/DropdownItem"
+import DropdownLink from "@material-tailwind/react/DropdownLink"
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home, About, Skills, Experience, Contact, Footer, Team } from './components'
 import { useState } from "react";
@@ -13,6 +16,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
 import { MagicalButton } from './stylee';
+
+
+export default function Dropdown() {
+    return (
+        <Dropdown
+            color="lightBlue"
+            placement="bottom-start"
+            buttonText="Dropdown"
+            buttonType="filled"
+            size="regular"
+            rounded={false}
+            block={false}
+            ripple="light"
+        >
+)
+}
 
 function App() {
 
@@ -30,7 +49,21 @@ function App() {
     <Switch>
         <Route exact path="/" >
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname"> <MagicalButton>GC</MagicalButton></Navbar.Brand>
+            <Navbar.Brand href="#home" className="navname"> <MagicalButton>  <DropdownItem color="lightBlue" ripple="light">
+                Action
+            </DropdownItem>
+            <DropdownLink
+                href="#"
+                color={color}
+                ripple="light"
+                onClick={(e) => e.preventDefault()}
+            >
+                Another Action
+            </DropdownLink>
+            <DropdownItem color="lightBlue" ripple="light">
+                Something else
+            </DropdownItem>
+        </Dropdown>GC</MagicalButton></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
