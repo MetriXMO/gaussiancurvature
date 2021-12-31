@@ -49,7 +49,11 @@ function App() {
     <Switch>
         <Route exact path="/" >
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname">   <DropdownItem color="lightBlue" ripple="light">
+            <Navbar.Brand href="#home" className="navname"></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton> <DropdownItem color="lightBlue" ripple="light">
                 Action
             </DropdownItem>
             <DropdownLink
@@ -63,11 +67,7 @@ function App() {
             <DropdownItem color="lightBlue" ripple="light">
                 Something else
             </DropdownItem>
-        </Dropdown></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton>Home</MagicalButton></Nav.Link>
+        </Dropdown></MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About Us</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Contests</MagicalButton></Nav.Link>
