@@ -1,13 +1,9 @@
 import './App.css';
 import React from 'react'
-import "@material-tailwind/react/tailwind.css";
 import helloLight from '../src/oeye.png';
 import helloDark from '../src/oeye.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Dropdown from "@material-tailwind/react/Dropdown"
-import DropdownItem from "@material-tailwind/react/DropdownItem"
-import DropdownLink from "@material-tailwind/react/DropdownLink"
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home, About, Skills, Experience, Contact, Footer, Team } from './components'
 import { useState } from "react";
@@ -23,21 +19,7 @@ import { MagicalButton } from './stylee';
 
 function App() {
 
-  function Dropdown() {
-    return (
-        <Dropdown
-            color="lightBlue"
-            placement="bottom-start"
-            buttonText="Dropdown"
-            buttonType="filled"
-            size="regular"
-            rounded={false}
-            block={false}
-            ripple="light"
-        >
- </Dropdown>
-)
-}
+
       
  
    
@@ -55,20 +37,7 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton> <DropdownItem color="lightBlue" ripple="light">
-                Action
-            </DropdownItem>
-            <DropdownLink
-                href="#"
-                color={color}
-                ripple="light"
-                onClick={(e) => e.preventDefault()}
-            >
-                Another Action
-            </DropdownLink>
-            <DropdownItem color="lightBlue" ripple="light">
-                Something else
-            </DropdownItem>
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton> Home
        </MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link"><MagicalButton>About Us</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
