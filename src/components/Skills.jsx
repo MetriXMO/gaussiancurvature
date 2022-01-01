@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/esm/Card';
 import Alert from 'react-bootstrap/Alert';
-import { MagicalButton } from './stylee';
+import { Mdark } from './stylee';
  function AlertDismissibleExample() {
   const [show, setShow] = useState(true);
 
@@ -46,22 +46,23 @@ const Skills = ({ darkMode }) => {
                                     <Card.Text align="left">
                                                    
                                         <br/><a  href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> 
-                                            <br/> <MagicalButton  align="left">Download</MagicalButton>  </a>&nbsp;&nbsp; </Card.Text>
+                                            <br/> <Mdark  align="left">Download</Mdark>  </a>&nbsp;&nbsp; </Card.Text>
  
                                 </Card.Body>
 
                             </Card></Col>
  <Col lg={6}>
                             <Card className="skill-nbcard">
+                              <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/><br/><br/>
                            <Card.Header><div class={darkMode ? "lead" : "lead"}>MMO 2020 Day 2</div></Card.Header>
                                 <Card.Body >
-                                       <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/><br/><br/>
+                                      
                                       
                                       <Card.Text align="left">
                                               <br/>
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%202.pdf" target="_blank" rel="noreferrer noopener">
                                         <br/>
-                                            <MagicalButton  align="left">Download</MagicalButton> 
+                                            <Mdark  align="left">Download</Mdark> 
                                         </a>&nbsp;&nbsp;</Card.Text>
                                 </Card.Body>
 
