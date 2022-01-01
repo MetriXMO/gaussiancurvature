@@ -37,8 +37,8 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><MagicalButton> Home
-       </MagicalButton></Nav.Link>
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link"><Mdark> Home
+       </Mdark></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link">{darkMode? "<Mdark>About Us</Mdark>" : "<MagicalButton>About Us</MagicalButton>"}</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link"><MagicalButton>Team</MagicalButton></Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link"><MagicalButton>Contests</MagicalButton></Nav.Link>
