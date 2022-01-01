@@ -16,7 +16,7 @@ import { MagicalButton } from './stylee';
 
   if (show) {
     return (
-      <Alert variant="warning" onClose={() => setShow(false)} dismissible>
+      <Alert variant="dark" onClose={() => setShow(false)} dismissible>
         <Alert.Heading></Alert.Heading>
         <p>
          
