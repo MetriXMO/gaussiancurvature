@@ -41,7 +41,7 @@ function App() {
                 <Nav className="mr-auto">
                   <Nav.Link href="" className="link">{darkMode? 
   <Dropdown><Dropdown.Toggle variant="light" id="dropdown-basic">
-  <MagicalButton>  Home <MagicalButton>
+  <MagicalButton>  Home </MagicalButton>
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
