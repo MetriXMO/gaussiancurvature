@@ -30,7 +30,7 @@ export const MagicalButton = styled.a`
     }
   }
 `
-export const mdark = styled.b`
+export const Mdark = styled.b`
   color: #19e3a3;
   text-decoration: none;
   padding: 0.9rem 1.4rem;
