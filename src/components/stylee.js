@@ -31,12 +31,12 @@ export const MagicalButton = styled.a`
   }
 `
 export const Mdark = styled.b`
-  color: #19e3a3;
+  color: #fff;
   text-decoration: none;
   padding: 0.9rem 1.4rem;
-  background: #272628;
+  background: #19e3a3;
   border-radius: 0.3rem;
-  box-shadow: rgb(25, 227, 163) 0px 13px 19px -6px;
+  box-shadow: rgba(25, 227, 163, .9) 0px 13px 19px -6px;
   transition: 0.5s;
   @media (max-width: 380px) {
     width: 80%;
@@ -44,7 +44,7 @@ export const Mdark = styled.b`
     text-align: center;
   }
   &:hover {
-    box-shadow: 0px 0px 17px 0px rgb(25, 227, 163);
+    box-shadow: 0px 0px 17px 0px rgba(25, 227, 163, 0.36);
     transition: 0.5s;
   }
   &:first-child {
@@ -53,7 +53,7 @@ export const Mdark = styled.b`
     color: #19e3a3;
     box-shadow: rgb(25, 227, 163) 0px 13px 19px -6px;
     &:hover {
-      box-shadow: 0px 0px 17px 0px rgb(25, 227, 163);
+      box-shadow: 0px 0px 17px 0px rgba(25, 227, 163, 0.4);
     }
     @media (max-width: 380px) {
       margin: 0 auto 1.5rem auto;
