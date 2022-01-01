@@ -41,7 +41,7 @@ function App() {
                 <Nav className="mr-auto">
                   <Nav.Link href="" className="link">{darkMode? 
   <Dropdown>
-  <MagicalButton>  Home <Dropdown.Toggle variant="white"=></Dropdown.Toggle></MagicalButton>
+  <MagicalButton>  Home <Dropdown.Toggle variant="white"></Dropdown.Toggle></MagicalButton>
 <br/>
 <Dropdown.Menu>
     <Dropdown.Item href="https://gcurvature.vercel.app/about">Action</Dropdown.Item>
