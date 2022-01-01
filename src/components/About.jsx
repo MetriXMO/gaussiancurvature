@@ -118,7 +118,7 @@ const About = ({ darkMode }) => {
             <Col lg={12} align='left'>
                <Card className="skill-nbcard">
                            
-                                    <Card.Header><div class= "lead"}>FAQS</div></Card.Header>      <Card.Body> 
+                                    <Card.Header><div class= "lead">FAQS</div></Card.Header>      <Card.Body> 
                                     <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>MMO is back in this year again and is scheduled to be held on 14th December. The rules and regulations of the contest is identical to its previous year's rules and regulation. MMO 2021 team is listed in the team's page, we have fairly expanded from the base team of 6 peoples from 2020. Best of luck.
 <br></br>
 <br></br>
