@@ -30,7 +30,36 @@ export const MagicalButton = styled.a`
     }
   }
 `
-
+export const mdark = styled.b`
+  color: #19e3a3;
+  text-decoration: none;
+  padding: 0.9rem 1.4rem;
+  background: #272628;
+  border-radius: 0.3rem;
+  box-shadow: rgb(25, 227, 163) 0px 13px 19px -6px;
+  transition: 0.5s;
+  @media (max-width: 380px) {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &:hover {
+    box-shadow: 0px 0px 17px 0px rgb(25, 227, 163);
+    transition: 0.5s;
+  }
+  &:first-child {
+    margin-right: 1rem;
+    background: #272628;
+    color: #19e3a3;
+    box-shadow: rgb(25, 227, 163) 0px 13px 19px -6px;
+    &:hover {
+      box-shadow: 0px 0px 17px 0px rgb(25, 227, 163);
+    }
+    @media (max-width: 380px) {
+      margin: 0 auto 1.5rem auto;
+    }
+  }
+`
 export const Wrapper = styled.div`
   padding: 4rem 1rem;
   p {
