@@ -12,7 +12,7 @@ import Nav from 'react-bootstrap/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
-import { MagicalButton } from './stylee';
+import { MagicalButton, Mdark } from './stylee';
 
 
 
