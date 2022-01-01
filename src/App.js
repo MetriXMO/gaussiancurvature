@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react'
 import helloLight from '../src/oeye.png';
 import helloDark from '../src/oeye.png';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
