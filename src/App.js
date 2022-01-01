@@ -39,8 +39,8 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link">{darkMode? <MagicalButton>  
-  <Dropdown.Toggle  id="dropdown-basic">
+                  <Nav.Link href="" className="link">{darkMode? <MagicalButton>  
+  <Dropdown.Toggle variant="light" id="dropdown-basic">
   Home
   </Dropdown.Toggle>
 
