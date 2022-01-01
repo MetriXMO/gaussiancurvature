@@ -5,7 +5,7 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { AttentionSeeker } from 'react-awesome-reveal';
-import { MagicalButton, Flex } from './stylee';
+import { MagicalButton, Flex, Mdark } from './stylee';
 
 const Home = ({ darkMode }) => {
  
@@ -57,14 +57,8 @@ We also provide mathematical handouts to give some precise details about importa
                                     <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>We are a group of Mathematical Olympiad students who admire Mathematics to a great extent. We wish to spread the joy of solving and recognising the non-routine level of mathematics and encourage all math lovers who are yet to discover or already discovered it to do so too. We also help sections of society that try to learn mathematics who have a great thirst for knowledge for mathematics and education.
 <br></br>
 <br></br>   <Flex>
-        <MagicalButton
-          href=""
-       >
-          View in Details
-        </MagicalButton>
-        <MagicalButton>
-          Get In Touch
-        </MagicalButton>
+       {darkMode? <MagicalButton href="">Details</MagicalButton> : <Mdark href="">Details</Mdark> }
+       {darkMode? <MagicalButton>Welcome</MagicalButton> : <Mdark>Welcome</Mdark> }
       </Flex> </Card.Text>
                                 </Card.Body></Card>
             </Col>
