@@ -40,9 +40,9 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                   <Nav.Link href="" className="link">{darkMode? 
-  <Dropdown><Dropdown.Toggle variant="white" >
+  <Dropdown>
   <MagicalButton>  Home </MagicalButton>
-  </Dropdown.Toggle>
+  
 
   <Dropdown.Menu>
     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
