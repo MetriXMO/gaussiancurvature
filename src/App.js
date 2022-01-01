@@ -41,12 +41,12 @@ function App() {
                 <Nav className="mr-auto">
                   <Nav.Link href="" className="link">{darkMode? 
   <Dropdown>
-  <MagicalButton>  Home <Dropdown.Toggle variant="white"></Dropdown.Toggle></MagicalButton>
+  <MagicalButton>  Home <Dropdown.Toggle variant="white"=></Dropdown.Toggle></MagicalButton>
 <br/>
 <Dropdown.Menu>
-    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+    <Dropdown.Item href="https://gcurvature.vercel.app/about">Action</Dropdown.Item>
+    <Dropdown.Item href="https://gcurvature.vercel.app/team">Another action</Dropdown.Item>
+    <Dropdown.Item href="#https://gcurvature.vercel.app/about">Something else</Dropdown.Item>
   </Dropdown.Menu> </Dropdown>
  : <Mdark>Home</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link">{darkMode? <MagicalButton>About Us</MagicalButton> : <Mdark>About Us</Mdark> }</Nav.Link>
