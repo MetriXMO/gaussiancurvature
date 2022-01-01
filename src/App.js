@@ -40,7 +40,7 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                   <Nav.Link href="" className="link">{darkMode? <MagicalButton>  
-  <Dropdown.Toggle variant="light" id="dropdown-basic">
+  <Dropdown><Dropdown.Toggle variant="light" id="dropdown-basic">
   Home
   </Dropdown.Toggle>
 
@@ -48,7 +48,7 @@ function App() {
     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
     <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-  </Dropdown.Menu>
+  </Dropdown.Menu> </Dropdown>
 </MagicalButton> : <Mdark>Home</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link">{darkMode? <MagicalButton>About Us</MagicalButton> : <Mdark>About Us</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link">{darkMode? <MagicalButton>Team</MagicalButton> : <Mdark>Team</Mdark> }</Nav.Link>
