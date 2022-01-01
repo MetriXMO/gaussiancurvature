@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react'
 import helloLight from '../src/oeye.png';
 import helloDark from '../src/oeye.png';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -38,7 +39,9 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="https://gcurvature.vercel.app/" className="link">{darkMode? <MagicalButton>Home</MagicalButton> : <Mdark>Home</Mdark> }</Nav.Link>
+                  <Nav.Link href="https://gcurvature.vercel.app/" className="link">{darkMode? <MagicalButton>Home  <Dropdown.Item as="button">Action</Dropdown.Item>
+  <Dropdown.Item as="button">Another action</Dropdown.Item>
+  <Dropdown.Item as="button">Something else</Dropdown.Item> </MagicalButton> : <Mdark>Home</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/about" className="link">{darkMode? <MagicalButton>About Us</MagicalButton> : <Mdark>About Us</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/team" className="link">{darkMode? <MagicalButton>Team</MagicalButton> : <Mdark>Team</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link">{darkMode? <MagicalButton>Contests</MagicalButton> : <Mdark>Contests</Mdark> }</Nav.Link>
