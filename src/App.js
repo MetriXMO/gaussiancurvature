@@ -11,6 +11,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
+import { faAlien } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
 import { MagicalButton, Mdark } from './stylee';
 
@@ -44,7 +45,7 @@ function App() {
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link">{darkMode? <MagicalButton>Contact</MagicalButton> : <Mdark>Contact</Mdark> }</Nav.Link>
                 </Nav>
 {darkMode?  <MagicalButton onClick={toggleDarkMode}>
-                    {darkMode ? "Switch Alien Mode" : "Switch Human Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
+                    {darkMode ? "Switch Alien Mode" : "Switch Human Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAlien} spin/>
                 </MagicalButton> : <Mdark onClick={toggleDarkMode}>
                     {darkMode ? "Switch Alien Mode" : "Switch Human Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
                 </Mdark>}
