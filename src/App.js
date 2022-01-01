@@ -43,9 +43,11 @@ function App() {
                     <Nav.Link href="https://gcurvature.vercel.app/mmo2020" className="link">{darkMode? <MagicalButton>Contests</MagicalButton> : <Mdark>Contests</Mdark> }</Nav.Link>
                     <Nav.Link href="https://gcurvature.vercel.app/contact" className="link">{darkMode? <MagicalButton>Contact</MagicalButton> : <Mdark>Contact</Mdark> }</Nav.Link>
                 </Nav>
-                <MagicalButton onClick={toggleDarkMode}>
+{darkMode?  <MagicalButton onClick={toggleDarkMode}>
                     {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
-                </MagicalButton>
+                </MagicalButton> : <Mdark onClick={toggleDarkMode}>
+                    {darkMode ? "Switch Dark Mode" : "Switch Light Mode"} <FontAwesomeIcon className="light" size="lg" icon={faAdjust} spin/>
+                </Mdark>}
             </Navbar.Collapse>
           </Navbar>
           <div id="home">
