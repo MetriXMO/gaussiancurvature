@@ -34,7 +34,7 @@ function App() {
     <Switch>
         <Route exact path="/" >
           <Navbar expand="lg" className="navbar" data-theme={darkMode ? "dark" : "light"}>
-            <Navbar.Brand href="#home" className="navname"></Navbar.Brand>
+            <Navbar.Brand href="#home"  className="navname"></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
