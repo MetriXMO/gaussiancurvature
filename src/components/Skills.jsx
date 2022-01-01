@@ -40,12 +40,13 @@ const Skills = ({ darkMode }) => {
                     <Row>
                       <Col lg={6}>
                      <Card className="skill-nbcard">
+                       <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/>
                      <Card.Header><div class={darkMode ? "lead" : "lead"}>MMO 2021 Day 1</div></Card.Header>
                                 <Card.Body>
-                                               <Card.Img variant="top" src={darkMode ? helloDark : helloLight} width="450"/> <br/><br/>
+                                              
                                     <Card.Text align="left">
                                                    
-                                        <br/><a  href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> 
+                                       <a  href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%201.pdf" target="_blank" rel="noreferrer noopener"> 
                                             <br/> <Mdark  align="left">Download</Mdark>  </a>&nbsp;&nbsp; </Card.Text>
  
                                 </Card.Body>
@@ -53,13 +54,13 @@ const Skills = ({ darkMode }) => {
                             </Card></Col>
  <Col lg={6}>
                             <Card className="skill-nbcard">
-                              <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/><br/><br/>
+                              <Card.Img variant="top" src={darkMode ? helloDark1 : helloLight1} width="400"/>
                            <Card.Header><div class={darkMode ? "lead" : "lead"}>MMO 2020 Day 2</div></Card.Header>
                                 <Card.Body >
                                       
                                       
                                       <Card.Text align="left">
-                                              <br/>
+                                             
   <a href="https://aritra-12.github.io/pdfs/MMO%202020%20DAY%202.pdf" target="_blank" rel="noreferrer noopener">
                                         <br/>
                                             <Mdark  align="left">Download</Mdark> 
