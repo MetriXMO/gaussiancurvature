@@ -13,15 +13,15 @@
 }
 
 :root{
-     --bg-color: #272628;
+     --bg-color: #bbb9bc;
     --text-color: #0c96f5;
     --page-color: #1f1e1d;
     --description: #00c3ff;
     --hello: #00c3ff;
     --name: #0c96f5;
     --border-width: 2px;
-    --aritra:#272628;
-     --oreo:#272628; 
+    --aritra:#bbb9bc;
+     --oreo:#bbb9bc; 
   --new: #00c3ff;
 }
 
