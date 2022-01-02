@@ -40,7 +40,7 @@ export const Mdark = styled.b`
   transition: 0.5s;
   @media (max-width: 380px) {
     width: 80%;
-    margin: 0 auto;
+   
     text-align: center;
   }
   &:hover {
@@ -56,7 +56,7 @@ export const Mdark = styled.b`
       box-shadow: 0px 0px 17px 0px rgba(25, 227, 163, 0.4);
     }
     @media (max-width: 380px) {
-      margin: 0 auto 1.5rem auto;
+  
     }
   }
 `
