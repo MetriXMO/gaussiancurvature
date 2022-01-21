@@ -19,15 +19,7 @@ const Home = ({ darkMode }) => {
                     <Col lg={12} xs={12}>
      
                         <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
-                      
-                 </Col>   
-                </Row>
-
-              
-<Container align='center'><Row><Col lg={15} align='center'>
-<div align="center" class="text-secondary" >  
-<div align="center" >
-    <h2 className="lead" align="center">
+                        <h2 className="lead" align="center">
                             <span
                                 class="txt-rotate"
                                 data-period="2000"
@@ -35,7 +27,15 @@ const Home = ({ darkMode }) => {
                                  <br></br>
                             </span>
                         </h2>
-             GIMO 2020 is our upcoming contest, so stay tuned. </div> 
+                 </Col>   
+                </Row>
+
+              
+<Container align='center'><Row><Col lg={15} align='center'>
+<div align="center" class="text-secondary" >  
+<div align="center" >
+  
+            <h5 align="center"> GIMO 2020 is our upcoming contest, so stay tuned. </h5> </div> 
            
 </div>
  
