@@ -35,7 +35,7 @@ const Home = ({ darkMode }) => {
 <div align="center" class="text-secondary" >  <Col lg={9}> 
 <div align="center" >
   
-             GIMO 2020 is our upcoming contest, so stay tuned.. </div> 
+             GIMO 2020 is our upcoming contest, so stay tuned. </div> 
            
 </Col></div>
  
