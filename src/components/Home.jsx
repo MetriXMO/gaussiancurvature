@@ -35,9 +35,7 @@ const Home = ({ darkMode }) => {
 <div align="center" class="text-secondary" >  <Col lg={9}> 
 <div align="left" >
   
-             Gaussian Curvature is a  mathematics organization managed by some mathematics enthusiast members which aim to improve the quality of education specially for mathematics.
-It provides online contests which include practise for olympiads and contests ranging from AMC to IMO and other regional and national contests,
- provides articles, journal to provide precise details about important sections and many more other mathematical events. </div> 
+             GIMO 2020 is our upcoming contest, so stay tuned.. </div> 
            
 </Col></div>
  
