@@ -54,10 +54,10 @@ It provides online contests which include practise for olympiads and contests ra
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
                                    
-                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>We are a group of Mathematical Olympiad students who admire Mathematics to a great extent. We wish to spread the joy of solving and recognising the non-routine level of mathematics and encourage all math lovers who are yet to discover or already discovered it to do so too. We also help sections of society that try to learn mathematics who have a great thirst for knowledge for mathematics and education.
+                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>The Gaussian Curvature team consists of Math Olympiad students who enjoy Mathematics to a great extent. We aim to help others discover their love for Mathematics beyond the school syllabus, and to develop their passion for problem-solving. Through our training materials and contests, we hope to help those who have a keen interest in Math Olympiad excel.
 <br></br>
 <br></br>   <Flex>
-       {darkMode? <MagicalButton href="">Details</MagicalButton> : <Mdark href="">Details</Mdark> }
+       {darkMode? <MagicalButton href="">Details</MagicalButton> : <Mdark href="">About Us</Mdark> }
        {darkMode? <MagicalButton>Welcome</MagicalButton> : <Mdark>Welcome</Mdark> }
       </Flex> </Card.Text>
                                 </Card.Body></Card>
