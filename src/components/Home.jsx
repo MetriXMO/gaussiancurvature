@@ -24,7 +24,7 @@ const Home = ({ darkMode }) => {
                 </Row>
 
               
-<Container align='left'><Row><Col lg={15} align='left'>
+<Container align='center'><Row><Col lg={15} align='left'>
 <div align="center" class="text-secondary" >  
 <div align="center" >
     <h2 className="lead" align="center">
