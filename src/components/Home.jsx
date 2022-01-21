@@ -35,9 +35,9 @@ const Home = ({ darkMode }) => {
 <div align="center" class="text-secondary" >  <Col lg={9}> 
 <div align="left" >
   
-             Gaussian Curvature is a non profit mathematics organization managed by some mathematics enthusiast members which aim to improve the quality of education specially for mathematics.
-It provides online contests which include practise for olympiads and contests ranging from AMC to  IMO and other regional and national contests also
- provide mathematical handouts to provide precise details about important sections and are planning to do many more projects underneath. </div> 
+             Gaussian Curvature is a  mathematics organization managed by some mathematics enthusiast members which aim to improve the quality of education specially for mathematics.
+It provides online contests which include practise for olympiads and contests ranging from AMC to IMO and other regional and national contests,
+ provides articles, journal to provide precise details about important sections and many more other mathematical events. </div> 
            
 </Col></div>
  
