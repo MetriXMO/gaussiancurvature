@@ -33,7 +33,7 @@ const Home = ({ darkMode }) => {
                 <Row>
 
 <div align="center" class="text-secondary" >  <Col lg={9}> 
-<div align="left" >
+<div align="center" >
   
              GIMO 2020 is our upcoming contest, so stay tuned.. </div> 
            
