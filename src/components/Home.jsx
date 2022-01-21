@@ -31,15 +31,15 @@ const Home = ({ darkMode }) => {
                 </Row>
 
               
-<Container align='center'><Row><Col lg={15} align='center'>
+<Container align="center"><Col lg={15} align="center">
 <div align="center" class="text-secondary" >  
 <div align="center" >
   
-            <h5 align="center"> GIMO 2020 is our upcoming contest, so stay tuned. </h5> </div> 
+            <h5 align="center"> GIMO 2022 is our next contest, so stay tuned. </h5> </div> 
            
 </div>
  
-              </Col> </Row>
+              </Col> 
   </Container>
  </AttentionSeeker>
          
