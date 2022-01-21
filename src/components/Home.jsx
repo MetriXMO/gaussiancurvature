@@ -23,8 +23,8 @@ const Home = ({ darkMode }) => {
                  </Col>   
                 </Row>
 
-                <Row>
-
+              
+<Container align='left'><Row><Col lg={15} align='left'>
 <div align="center" class="text-secondary" >  
 <div align="center" >
     <h2 className="lead" align="center">
@@ -39,8 +39,8 @@ const Home = ({ darkMode }) => {
            
 </div>
  
-               </Row>
-  
+              </Col> </Row>
+  </Container>
  </AttentionSeeker>
          
 
