@@ -102,7 +102,7 @@ const Team = ({ darkMode }) => {
                     <br></br>
           <Row>    
 
-                                   <Col lg={6} align="center">
+                                   <Col lg={4} align="center">
                <Card className="nbcard">
                                 <Card.Body>
                                    
@@ -137,7 +137,7 @@ const Team = ({ darkMode }) => {
                <Card className="nbcard">
                                 <Card.Body>
                                     
-                                    <Card.Text><ul align="right">
+                                    <Card.Text><ul align="left">
                                               
 <b>
  
