@@ -107,13 +107,13 @@ const Team = ({ darkMode }) => {
                                 <Card.Body>
                                    
                                     <Card.Text><ul align="left">
-                                       <b>     <li>MNJ2357, Korea</li>  <li>Mindstormer, Ukraine</li>  <li>TLP.39, Thailand</li> <li>Aritra12, India</li> <li>k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
+                                       <b>     <li class="text-light">MNJ2357, Korea</li>   <li>TLP.39, Thailand</li> <li class="text-light">Mindstormer, Ukraine</li>  <li>Aritra12, India</li> <li class="text-light">k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
 
        
 
- <li>EpicNumberTheory, India</li>
+ <li class="text-light">EpicNumberTheory, India</li>
 
- <li>Orestis Lignos, Greece</li><li>Jelena, India</li> <li>sk_pi3145, USA</li> <li>Justin Lee, USA</li> </b>
+ <li>Orestis Lignos, Greece</li> <li class="text-light">Jelena, India</li> <li>sk_pi3145, USA</li> <li class="text-light">Justin Lee, USA</li> <li class="text-light">Justin Lee, USA</li> <li>NJOY, India</li><li class="text-light">L567, India</li></b><li>Borao, Switzerland</li>
 
 
 
@@ -136,17 +136,21 @@ const Team = ({ darkMode }) => {
                                               
 <b>
  
-<li>Starchan, India</li>
+<li class="text-light">Starchan, India</li>
 <li> i3435, USA </li> 
- <li>MathLuis, Bolivia</li>
+ <li class="text-light">MathLuis, Bolivia</li>
 <li>Squareman, USA</li>
- <li>GGHX, Singapore</li>
+ <li class="text-light">GGHX, Singapore</li>
  <li>Jupiter_is_Big, India</li>
- <li>oVlad, Romania</li>
+ <li class="text-light">oVlad, Romania</li>
 <li>phoenixfire, India</li>
-<li>lneis1, India</li>
+<li class="text-light">lneis1, India</li>
  <li>Awesome_Guy, USA</li>
-<li>Anirrudha Sharma, India</li> 
+<li class="text-light">Anirrudha Sharma, India</li> 
+
+<li>NJOY, India</li>
+<li class="text-light">L567, India</li>
+</b><li>Borao, Switzerland</li>
 </b>
 
 </ul></Card.Text>
