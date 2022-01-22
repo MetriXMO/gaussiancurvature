@@ -40,7 +40,7 @@ const Footer = ({ darkMode }) => {
             <Heading><h3>Community</h3></Heading>
             <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
             <FooterLink href="#"><h6>Email</h6></FooterLink>
-            <Footerlink href="#"><h6>Discord</h6></FooterLink>
+            <FooterLink href="#"><h6>Discord</h6></FooterLink>
           </Column>
                 
         </Row>
