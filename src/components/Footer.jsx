@@ -23,20 +23,20 @@ const Footer = ({ darkMode }) => {
        
           </Column>  
           <Column>
-           <Heading><h4>Info</h4></Heading>
+           <Heading><h5>Info</h5></Heading>
             <FooterLink href="#"><h6>Aim</h6></FooterLink>
-            <FooterLink href="#"><h6>Vision</h6></FooterLink>
+            <FooterLink href="#">Vision</FooterLink>
             <FooterLink href="#"><h6>Testimonials</h6></FooterLink>
           </Column>
           <Column>
-            <Heading><h4>Events</h4></Heading>
+            <Heading><h5>Events</h5></Heading>
             <FooterLink href="#"><h6>Articles</h6></FooterLink>
             <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
             <FooterLink href="#"><h6>Past Papers</h6></FooterLink>
            
           </Column>
           <Column>
-            <Heading><h4>Community</h4></Heading>
+            <Heading><h5>Community</h5></Heading>
             <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
             <FooterLink href="#"><h6>Email</h6></FooterLink>
             <FooterLink href="#"><h6>Discord</h6></FooterLink>
