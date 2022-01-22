@@ -43,8 +43,9 @@ const Footer = ({ darkMode }) => {
           </Column>
                 
         </Row>
+      
       </Container>
-
+<br/><br/><br/>
   );
 };
         </div>
