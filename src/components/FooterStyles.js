@@ -41,7 +41,7 @@ export const Row = styled.div`
   }
 `;
    
-export const FooterLink = styled.a`
+export const FooterLink = ({ darkMode, styled.a}) =>`
   
   margin-bottom: 20px;
   font-size: 18px;
@@ -53,9 +53,9 @@ export const FooterLink = styled.a`
   }
 `;
    
-export const Heading =  ({ darkMode, styled.p` }) => {
+export const Heading =  styled.p`
   font-size: 24px;
  
   margin-bottom: 40px;
-  font-weight: bold; }
+  font-weight: bold; 
 `;
