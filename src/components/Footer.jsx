@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  Box,
   Container,
   Row,
   Column,
@@ -18,7 +17,7 @@ const Footer = () => {
              Copyright &copy; 2021 MMO <br></br><br></br><br></br>
                
             </p>
-       <Box>
+     
       <h1 style={{  
                    textAlign: "center", 
                    marginTop: "-50px" }}>
@@ -58,7 +57,7 @@ const Footer = () => {
           </Column>
         </Row>
       </Container>
-    </Box>
+  
   );
 };
         </div>
