@@ -125,7 +125,7 @@ const Team = ({ darkMode }) => {
 
  
 
-
+</b>
 
 
 
