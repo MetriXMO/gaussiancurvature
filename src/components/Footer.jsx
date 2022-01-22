@@ -19,10 +19,10 @@ const Footer = () => {
                
             </p>
        <Box>
-      <h1 style={{ color: "green", 
+      <h1 style={{  
                    textAlign: "center", 
                    marginTop: "-50px" }}>
-        GeeksforGeeks: A Computer Science Portal for Geeks
+        
       </h1>
       <Container>
         <Row>
@@ -43,8 +43,7 @@ const Footer = () => {
             <Heading>Contact Us</Heading>
             <FooterLink href="#">Uttar Pradesh</FooterLink>
             <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
+            
           </Column>
           <Column>
             <Heading>Social Media</Heading>
@@ -55,27 +54,7 @@ const Footer = () => {
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
-              </i>
-            </FooterLink>
+           
           </Column>
         </Row>
       </Container>
