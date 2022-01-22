@@ -24,22 +24,22 @@ const Footer = ({ darkMode }) => {
           </Column>  
           <Column>
            <Heading><h5>Info</h5></Heading>
-            <FooterLink href="#"><h6>Aim</h6></FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#"><h6>Testimonials</h6></FooterLink>
+            <FooterLink href="#">About</FooterLink>
+            <FooterLink href="#">Articles</FooterLink>
+            <FooterLink href="#">Contests</h6></FooterLink>
           </Column>
           <Column>
-            <Heading><h5>Events</h5></Heading>
-            <FooterLink href="#"><h6>Articles</h6></FooterLink>
-            <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
-            <FooterLink href="#"><h6>Past Papers</h6></FooterLink>
+            <Heading><h5>Place</h5></Heading>
+            <FooterLink href="#">Articles</FooterLink>
+            <FooterLink href="#">Problem Sets</FooterLink>
+            <FooterLink href="#">Past Papers</FooterLink>
            
           </Column>
           <Column>
-            <Heading><h5>Community</h5></Heading>
-            <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
-            <FooterLink href="#"><h6>Email</h6></FooterLink>
-            <FooterLink href="#"><h6>Discord</h6></FooterLink>
+            <Heading><h5>Interact</h5></Heading>
+            <FooterLink href="#">Contact Form</FooterLink>
+            <FooterLink href="#">Email</FooterLink>
+            <FooterLink href="#">Discord</FooterLink>
           </Column>
                 
         </Row>
