@@ -24,9 +24,9 @@ const Footer = () => {
         
       </h1>
       <Container>
-       <Row>
-          <Column class="lead">
-         <h6>    <Heading>About</Heading>
+       <Row class="lead"> <h6> 
+          <Column >
+           <Heading>About</Heading>
             <FooterLink href="#">Aim</FooterLink>
             <FooterLink href="#">Vision</FooterLink>
             <FooterLink href="#">Testimonials</FooterLink>
@@ -53,8 +53,8 @@ const Footer = () => {
                 </span>
               </i>
             </FooterLink>
-          </h6>  
-          </Column>
+          
+          </Column>  </h6> 
         </Row>
       </Container>
   
