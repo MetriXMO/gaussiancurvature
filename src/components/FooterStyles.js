@@ -47,7 +47,7 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  color: {darkMode? "#cbd5de" : "#19e3a3"}
+  color: #f0e8e5;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
