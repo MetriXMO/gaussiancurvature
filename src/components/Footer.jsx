@@ -24,7 +24,7 @@ const Footer = () => {
         
       </h1>
       <Container>
-       <Row class="lead">  
+       <Row class={darkMode? "text-secondary" :"lead"}>  
           <Column >
            <Heading>About</Heading>
             <FooterLink href="#"><h6>Aim</h6></FooterLink>
