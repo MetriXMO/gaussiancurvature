@@ -150,7 +150,7 @@ const Team = ({ darkMode }) => {
 
 <li>NJOY, India</li>
 <li class="text-light">L567, India</li>
-</b><li>Borao, Switzerland</li>
+<li>Borao, Switzerland</li>
 </b>
 
 </ul></Card.Text>
