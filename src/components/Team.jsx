@@ -113,7 +113,7 @@ const Team = ({ darkMode }) => {
 
  <li class={darkMode? "text-secondary" : "text-light"}>EpicNumberTheory, India</li>
 
- <li>Orestis Lignos, Greece</li> <li class={darkMode? "text-success" : "text-light"}>Jelena, India</li> <li>sk_pi3145, USA</li>  <li class={darkMode? "text-success" : "text-light"}>Justin Lee, USA</li> <li>NJOY, India</li><li class="text-light">L567, India</li><li>Borao, Switzerland</li>
+ <li>Orestis Lignos, Greece</li> <li class={darkMode? "text-secondary" : "text-light"}>Jelena, India</li> <li>sk_pi3145, USA</li>  <li class={darkMode? "text-secondary" : "text-light"}>Justin Lee, USA</li> <li>NJOY, India</li><li class={darkMode? "text-secondary" : "text-light"}>L567, India</li><li>Borao, Switzerland</li>
 
 <li class={darkMode? "text-secondary" : "text-light"}>CyclicISLscelesTrapezoid, USA</li>
 <li>Mindstormer, Ukraine</li>
