@@ -1,11 +1,7 @@
 import styled from 'styled-components';
-import React from 'react'
-import { useState } from "react";
 
 
 
-    const [darkMode, setDarkMode] = useState(false);
-  const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
 
 
 
