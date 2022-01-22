@@ -8,21 +8,11 @@ import {
 } from "./FooterStyles";
 
  
-const Footer = () => {
+const Footer = ({ darkMode }) => {
     return (
         <div>
             <hr/>
-            <p className="footer-text"> <h6>MMO</h6>
-                <br></br><br></br>
-             Copyright &copy; 2021 MMO <br></br><br></br><br></br>
-               
-            </p>
-     
-      <h1 style={{  
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-        
-      </h1>
+ 
       <Container>
        <Row class={darkMode? "text-secondary" :"lead"}>  
           <Column >
@@ -57,7 +47,11 @@ const Footer = () => {
           </Column>  
         </Row>
       </Container>
-  
+   <p className="footer-text"> 
+                <br></br><br></br>
+             Copyright &copy; 2021 GC <br></br><br></br><br></br>
+               
+            </p>
   );
 };
         </div>
