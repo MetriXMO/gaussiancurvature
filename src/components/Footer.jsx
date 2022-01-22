@@ -17,27 +17,26 @@ const Footer = ({ darkMode }) => {
        <Row className="footer-text">  
       <Column>
            
-             <div className="footer-text" align="center"> 
-                <br></br><br></br>
-             Copyright &copy; 2021 GC <br></br><br></br><br></br>
+           
+             Copyright &copy; 2021 GC 
                
-            </div>
+       
           </Column>  
           <Column>
-           <Heading><h3>Info</h3></Heading>
+           <Heading><h4>Info</h4></Heading>
             <FooterLink href="#"><h6>Aim</h6></FooterLink>
             <FooterLink href="#"><h6>Vision</h6></FooterLink>
             <FooterLink href="#"><h6>Testimonials</h6></FooterLink>
           </Column>
           <Column>
-            <Heading><h3>Events</h3></Heading>
+            <Heading><h4>Events</h4></Heading>
             <FooterLink href="#"><h6>Articles</h6></FooterLink>
             <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
             <FooterLink href="#"><h6>Past Papers</h6></FooterLink>
            
           </Column>
           <Column>
-            <Heading><h3>Community</h3></Heading>
+            <Heading><h4>Community</h4></Heading>
             <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
             <FooterLink href="#"><h6>Email</h6></FooterLink>
             <FooterLink href="#"><h6>Discord</h6></FooterLink>
