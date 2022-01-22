@@ -26,7 +26,7 @@ const Footer = ({ darkMode }) => {
            <Heading><h5>Info</h5></Heading>
             <FooterLink href="#">About</FooterLink>
             <FooterLink href="#">Articles</FooterLink>
-            <FooterLink href="#">Contests</h6></FooterLink>
+            <FooterLink href="#">Contests</FooterLink>
           </Column>
           <Column>
             <Heading><h5>Place</h5></Heading>
