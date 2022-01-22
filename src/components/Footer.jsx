@@ -14,7 +14,7 @@ const Footer = ({ darkMode }) => {
             <hr/>
  
       <Container>
-       <Row class={darkMode? "text-secondary" :"lead"}>  
+       <Row className="footer-text">  
           <Column >
            <Heading>About</Heading>
             <FooterLink href="#"><h6>Aim</h6></FooterLink>
@@ -43,7 +43,7 @@ const Footer = ({ darkMode }) => {
                 </span>
               </i>
             </FooterLink>
-             <div className="footer-text"> 
+             <div className="footer-text" align="center"> 
                 <br></br><br></br>
              Copyright &copy; 2021 GC <br></br><br></br><br></br>
                
