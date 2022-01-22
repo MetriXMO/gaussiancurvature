@@ -53,7 +53,7 @@ const Footer = () => {
                 </span>
               </i>
             </FooterLink>
-          <h6>  
+          </h6>  
           </Column>
         </Row>
       </Container>
