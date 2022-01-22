@@ -43,15 +43,15 @@ const Footer = ({ darkMode }) => {
                 </span>
               </i>
             </FooterLink>
-          
-          </Column>  
-        </Row>
-      </Container>
-   <p className="footer-text"> 
+             <div className="footer-text"> 
                 <br></br><br></br>
              Copyright &copy; 2021 GC <br></br><br></br><br></br>
                
-            </p>
+            </div>
+          </Column>  
+        </Row>
+      </Container>
+
   );
 };
         </div>
