@@ -15,40 +15,34 @@ const Footer = ({ darkMode }) => {
  
       <Container>
        <Row className="footer-text">  
-          <Column >
-           <Heading>About</Heading>
-            <FooterLink href="#"><h6>Aim</h6></FooterLink>
-            <FooterLink href="#"><h6>Vision</h6></FooterLink>
-            <FooterLink href="#"><h6>Testimonials</h6></FooterLink>
-          </Column>
-          <Column>
-            <Heading>Events</Heading>
-            <FooterLink href="#"><h6>Articles</h6></FooterLink>
-            <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
-            <FooterLink href="#"><h6>Previous Year Papers</h6></FooterLink>
+      <Column>
            
-          </Column>
-          <Column>
-            <Heading>Contact Us</Heading>
-            <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
-            <FooterLink href="#"><h6>Email</h6></FooterLink>
-            
-          </Column>
-          <Column>
-            <Heading>Social Media</Heading>
-            <FooterLink href="#">
-              <i>
-                <span style={{ marginLeft: "10px" }}>
-                  <h6>Discord</h6>
-                </span>
-              </i>
-            </FooterLink>
              <div className="footer-text" align="center"> 
                 <br></br><br></br>
              Copyright &copy; 2021 GC <br></br><br></br><br></br>
                
             </div>
           </Column>  
+          <Column>
+           <Heading><h3>Info</h3></Heading>
+            <FooterLink href="#"><h6>Aim</h6></FooterLink>
+            <FooterLink href="#"><h6>Vision</h6></FooterLink>
+            <FooterLink href="#"><h6>Testimonials</h6></FooterLink>
+          </Column>
+          <Column>
+            <Heading><h3>Events</h3></Heading>
+            <FooterLink href="#"><h6>Articles</h6></FooterLink>
+            <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
+            <FooterLink href="#"><h6>Past Papers</h6></FooterLink>
+           
+          </Column>
+          <Column>
+            <Heading><h3>Community</h3></Heading>
+            <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
+            <FooterLink href="#"><h6>Email</h6></FooterLink>
+            <Footerlink href="#"><h6>Discord</h6></FooterLink>
+          </Column>
+                
         </Row>
       </Container>
 
