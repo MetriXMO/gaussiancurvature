@@ -1,5 +1,13 @@
 import styled from 'styled-components';
-   
+import { useState } from "react";
+
+
+
+    const [darkMode, setDarkMode] = useState(false);
+  const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
+
+
+
 export const Box = styled.div`
   padding: 80px 60px;
   background: black;
@@ -41,8 +49,8 @@ export const Row = styled.div`
   }
 `;
    
-export const FooterLink = darkMode, styled.a`
-  color: {darkMode? "lead" : "lead"}
+export const FooterLink = styled.a`
+  color: {darkMode? "#cbd5de" : "#19e3a3"}
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
