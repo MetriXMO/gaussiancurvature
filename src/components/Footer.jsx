@@ -33,7 +33,7 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Events</Heading>
-            <FooterLink href="#">Articles</FooterLink>
+            <FooterLink href="#"><h6>Articles</h6></FooterLink>
             <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
             <FooterLink href="#"><h6>Previous Year Papers</h6></FooterLink>
            
@@ -49,7 +49,7 @@ const Footer = () => {
             <FooterLink href="#">
               <i>
                 <span style={{ marginLeft: "10px" }}>
-                  Discord
+                  <h6>Discord</h6>
                 </span>
               </i>
             </FooterLink>
