@@ -41,8 +41,8 @@ export const Row = styled.div`
   }
 `;
    
-export const FooterLink = ({ darkMode, styled.a}) =>`
-  
+export const FooterLink = darkMode, styled.a`
+  color: {darkMode? "lead" : "lead"}
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
