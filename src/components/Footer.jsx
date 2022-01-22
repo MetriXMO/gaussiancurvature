@@ -24,24 +24,24 @@ const Footer = () => {
         
       </h1>
       <Container>
-       <Row class="lead"> <h6> 
+       <Row class="lead">  
           <Column >
            <Heading>About</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
+            <FooterLink href="#"><h6>Aim</h6></FooterLink>
+            <FooterLink href="#"><h6>Vision</h6></FooterLink>
+            <FooterLink href="#"><h6>Testimonials</h6></FooterLink>
           </Column>
           <Column>
             <Heading>Events</Heading>
             <FooterLink href="#">Articles</FooterLink>
-            <FooterLink href="#">Problem Sets</FooterLink>
-            <FooterLink href="#">Previous Year Papers</FooterLink>
+            <FooterLink href="#"><h6>Problem Sets</h6></FooterLink>
+            <FooterLink href="#"><h6>Previous Year Papers</h6></FooterLink>
            
           </Column>
           <Column>
             <Heading>Contact Us</Heading>
-            <FooterLink href="#">Contact Form</FooterLink>
-            <FooterLink href="#">Email</FooterLink>
+            <FooterLink href="#"><h6>Contact Form</h6></FooterLink>
+            <FooterLink href="#"><h6>Email</h6></FooterLink>
             
           </Column>
           <Column>
@@ -54,7 +54,7 @@ const Footer = () => {
               </i>
             </FooterLink>
           
-          </Column>  </h6> 
+          </Column>  
         </Row>
       </Container>
   
