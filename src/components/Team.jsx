@@ -98,7 +98,7 @@ const Team = ({ darkMode }) => {
       <Fade>
         <Container align='center'>
      <br></br>
-                    <h2 className="lead" align="center"><b>Team</b></h2>
+                    <h2 className="lead" align="center"><b>Gaussian Curvature Team</b></h2>
                     <br></br>
           <Row>    
 
@@ -137,7 +137,7 @@ const Team = ({ darkMode }) => {
                <Card className="nbcard">
                                 <Card.Body>
                                     
-                                    <Card.Text><ul align="left">
+                                    <Card.Text><ul align="right">
                                               
 <b>
  
