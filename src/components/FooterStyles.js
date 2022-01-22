@@ -42,20 +42,20 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  color: #fff;
+  color: #19e3a3;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
    
   &:hover {
-      color: green;
+      color: #fff;
       transition: 200ms ease-in;
   }
 `;
    
 export const Heading = styled.p`
   font-size: 24px;
-  color: #fff;
+  color: #19e3a3;
   margin-bottom: 40px;
   font-weight: bold;
 `;
