@@ -53,9 +53,9 @@ export const FooterLink = styled.a`
   }
 `;
    
-export const Heading = styled.p`
+export const Heading =  ({ darkMode, styled.p` }) => {
   font-size: 24px;
  
   margin-bottom: 40px;
-  font-weight: bold;
+  font-weight: bold; }
 `;
