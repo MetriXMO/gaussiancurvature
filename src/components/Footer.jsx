@@ -24,36 +24,36 @@ const Footer = () => {
         
       </h1>
       <Container>
-        <Row>
-          <Column>
-            <Heading>About Us</Heading>
+       <Row>
+          <Column class="lead">
+         <h6>    <Heading>About</Heading>
             <FooterLink href="#">Aim</FooterLink>
             <FooterLink href="#">Vision</FooterLink>
             <FooterLink href="#">Testimonials</FooterLink>
           </Column>
           <Column>
-            <Heading>Services</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
+            <Heading>Events</Heading>
+            <FooterLink href="#">Articles</FooterLink>
+            <FooterLink href="#">Problem Sets</FooterLink>
+            <FooterLink href="#">Previous Year Papers</FooterLink>
+           
           </Column>
           <Column>
             <Heading>Contact Us</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
+            <FooterLink href="#">Contact Form</FooterLink>
+            <FooterLink href="#">Email</FooterLink>
             
           </Column>
           <Column>
             <Heading>Social Media</Heading>
             <FooterLink href="#">
-              <i className="fab fa-facebook-f">
+              <i>
                 <span style={{ marginLeft: "10px" }}>
-                  Facebook
+                  Discord
                 </span>
               </i>
             </FooterLink>
-           
+          <h6>  
           </Column>
         </Row>
       </Container>
