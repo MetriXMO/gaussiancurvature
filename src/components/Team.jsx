@@ -107,7 +107,7 @@ const Team = ({ darkMode }) => {
                                 <Card.Body>
                                    
                                     <Card.Text><ul align="left">
-                                       <b>     <li class="text-light">MNJ2357, Korea</li>   <li>TLP.39, Thailand</li> <li class="text-light">Mindstormer, Ukraine</li>  <li>Aritra12, India</li> <li class="text-light">k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
+                                       <b>     <li class="text-light">MNJ2357, Korea</li>   <li>TLP.39, Thailand</li> <li class="text-light">IndoMathXDZ, Indonesia</li>  <li>Aritra12, India</li> <li class="text-light">k12byda5h, Thailand</li><li>CANBANKAN, Canada</li>
 
        
 
@@ -115,8 +115,13 @@ const Team = ({ darkMode }) => {
 
  <li>Orestis Lignos, Greece</li> <li class="text-light">Jelena, India</li> <li>sk_pi3145, USA</li> <li class="text-light">Justin Lee, USA</li> <li class="text-light">Justin Lee, USA</li> <li>NJOY, India</li><li class="text-light">L567, India</li></b><li>Borao, Switzerland</li>
 
+<li class="text-light">CyclicISLscelesTrapezoid, USA</li>
+<li>Mindstormer, Ukraine</li>
+<li class="text-light">Sealsrock, USA</li>
+<li>ELectroWiz, USA</li>
 
-
+<li class="text-light">saadbd, Bangladesh</li>
+<li>Spiderduckpig, USA</li>
 
  
 
@@ -148,9 +153,23 @@ const Team = ({ darkMode }) => {
  <li>Awesome_Guy, USA</li>
 <li class="text-light">Anirrudha Sharma, India</li> 
 
-<li>NJOY, India</li>
-<li class="text-light">L567, India</li>
-<li>Borao, Switzerland</li>
+<li>Mathicorn, USA</li>
+<li class="text-light">Ramtin cheraghi nia, Iran</li>
+<li>Sherlock, Iran</li>
+
+<li class="text-light">Amar_04, India</li>
+<li>EmilXM, USA</li>
+
+
+<li class="text-light">pog, USA</li>
+<li>v4913, USA</li>
+<li class="text-light">Aryan-23, India</li>
+<li>player_01, Unknown</li>
+
+
+
+
+
 </b>
 
 </ul></Card.Text>
