@@ -47,13 +47,13 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  color: #f0e8e5;
+  color: #bab8bf;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
    
   &:hover {
-     
+    color: #bab8bf 
       transition: 200ms ease-in;
   }
 `;
